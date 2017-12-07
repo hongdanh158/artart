@@ -80,6 +80,14 @@ input,select{vertical-align:middle}
     font-family:'Helvetica Neue Condensed Black';
     src:url('../fonts/HelveticaNeue-CondensedBlack.otf');
 }
+@font-face {
+    font-family:'Helvetica Neue UltraLight';
+    src:url('../fonts/HelveticaNeue-UltraLight.otf');
+}
+@font-face {
+    font-family:'Helvetica Neue Ultra Light Italic';
+    src:url('../fonts/HelveticaNeue-UltraLightItalic.otf');
+}
 html { font-size: 62.5%; /* Mac dinh ve gia tri 10px */ }
 body {
   font-size: 1.6rem;
@@ -286,7 +294,7 @@ a:focus, a:active {
   font-size: 3rem;
   padding: 1.5rem 0;
   border-bottom: 2px solid #eb5f36;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   font-family: 'Helvetica Neue Bold', arial, sans-serif;
   text-transform: uppercase;
 }
@@ -440,4 +448,69 @@ a:focus, a:active {
   font-size:  2rem;
   font-family: "Helvetica Neue Bold", arial, sans-serif;
   margin: 2rem;
+}
+.footer {
+  background: #f1f1f1;
+  padding:  3rem 0;
+}
+.footer .info .logo {
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1; /* Fix for IE7 */
+  *display: inline; /* Fix for IE7 */
+  width:  260px;
+}
+.footer .info .logo img {
+  display: block;
+  width: 100%;  
+}
+.footer .info table td {
+  font-size: 1.6rem;
+}
+.footer .info table td:last-child a {
+    line-height: 1.5;
+    color: #000;
+    font-family: "Helvetica Neue Light", arial, sans-serif;
+}
+.footer .title {
+  font-size: 3rem;
+  color: #eb5f36;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+  font-family: "Helvetica Neue Bold", arial, sans-serif;
+}
+.footer .about ul li, .footer .support ul li {
+  list-style: none;
+}
+.footer .about ul li a, .footer .support ul li a {
+  display: block;
+  color: #444;
+  padding: 5px 0;
+}
+.footer .register-email .title {
+  text-align: right;
+  line-height: 1.2;
+}
+.footer h4.title {
+  text-transform: uppercase;
+}
+.footer .register-email .p-1 {
+  font-family: "Helvetica Neue Ultra Light Italic", arial, sans-serif;
+  line-height: 1.5;
+  margin-bottom: 5px;
+  text-align: right;
+  letter-spacing: 1px;
+}
+.footer .input-group {
+  margin-bottom: 10px;
+  max-width: 350px;
+}
+.footer .input-group .form-control {
+  border:  none;
+  background: #fff;
+}
+.footer .input-group .btn {
+  border-radius: 0;
+  cursor: pointer;
+  font-family: "Helvetica Neue Light", arial, sans-serif;
 }

@@ -107,7 +107,7 @@
         </a>
       </div>
       <div class="section home-news">
-        <h2 class="title">CẢM HỨNG SÁNG TẠO MỚI</h2>
+        <div class="d-flex justify-content-center"><h2 class="title">CẢM HỨNG SÁNG TẠO MỚI</h2></div>
         <div class="home-text">Hãy cùng ArtArt tham gia vào cuộc phiêu lưu khám phá chất liệu sáng tạo mới, để mỗi ngày của bạn đều luôn tươi mới và đầy ắp sự sáng tạo.</div>
         <div class="row list-news">
           <div class="col-lg-6 col-md-6">
@@ -168,7 +168,7 @@
         </div>
       </div>
       <div class="section home-video">
-        <h2 class="title">Video và hoạt động mới</h2>
+        <div class="d-flex justify-content-center"><h2 class="title">Video và hoạt động mới</h2></div>
         <div class="row color-grey">
           <div class="col-lg-6 col-sm-12 info">
               <h3 class="tit">Video: Những thủ thuật cần biết với dòng bút máy Twsbi</h3>
@@ -231,6 +231,7 @@
           </div>
       </div>
       <div class="section home-products">
+        <div class="d-flex justify-content-center"><h2 class="title">Mua hàng</h2></div>
         <div class="row">
           <div class="col-md-3">
             <div class="card">
@@ -405,38 +406,53 @@
       </div>
     </main><!-- /.container -->
     <footer class="footer">
-      <div class="row">
-        <div class="col-lg-3 info">
-          <a href="#" class="logo"><img src="images/logo-2.png" alt=""></a>
-          <table>
-            <tr>
-              <td>Trụ sở:</td><td><a href="https://www.google.com/maps/place/18+Nguy%E1%BB%85n+C%E1%BB%ADu+V%C3%A2n,+ph%C6%B0%E1%BB%9Dng+17,+B%C3%ACnh+Th%E1%BA%A1nh,+H%E1%BB%93+Ch%C3%AD+Minh,+Vietnam/@10.795689,106.7056353,17z/data=!3m1!4b1!4m5!3m4!1s0x317528b112f9339d:0x73124c3404a37d36!8m2!3d10.795689!4d106.707824" target="_blank">18/6C Nguyễn Cửu Vân, P. 17, Q. Bình Thạnh, TP.HCM</a></td>
-            </tr>
-            <tr>
-              <td>Hotline:</td><td><a href="tel:0914159319">0914159319</a></td>
-            </tr>
-            <tr>
-              <td>Email:</td><td> <a href="mailto:aas.cskh@gmail.com">aas.cskh@gmail.com</a></td>
-            </tr>
-          </table>
-        </div>
-        <div class="col-lg-3 about">
-          <h4 class="title">Giới thiệu</h4>
-          <ul>
-            <li><a href="#">Về ArtArt</a></li>
-            <li><a href="#">Tuyển dụng</a></li>
-            <li><a href="#">Liên hệ</a></li>
-          </ul>
-        </div>
-        <div class="col-lg-3 about">
-          <h4 class="title">HỖ TRỢ</h4>
-          <ul>
-            <li><a href="#">Chính sách bảo hành</a></li>
-            <li><a href="#">Qui định đổi trả</a></li>
-            <li><a href="#">Giao hàng</a></li>
-            <li><a href="#">Thanh toán</a></li>
-            <li><a href="#">Câu hỏi thường gặp</a></li>
-          </ul>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 info">
+            <a href="#" class="logo"><img src="images/logo-2.png" alt=""></a>
+            <table>
+              <tr>
+                <td>Trụ sở:</td><td> <a href="https://www.google.com/maps/place/18+Nguy%E1%BB%85n+C%E1%BB%ADu+V%C3%A2n,+ph%C6%B0%E1%BB%9Dng+17,+B%C3%ACnh+Th%E1%BA%A1nh,+H%E1%BB%93+Ch%C3%AD+Minh,+Vietnam/@10.795689,106.7056353,17z/data=!3m1!4b1!4m5!3m4!1s0x317528b112f9339d:0x73124c3404a37d36!8m2!3d10.795689!4d106.707824" target="_blank">18/6C Nguyễn Cửu Vân, P. 17, Q. Bình Thạnh, TP.HCM</a></td>
+              </tr>
+              <tr>
+                <td>Hotline:</td><td> <a href="tel:0914159319">0914159319</a></td>
+              </tr>
+              <tr>
+                <td>Email:</td><td> <a href="mailto:aas.cskh@gmail.com">aas.cskh@gmail.com</a></td>
+              </tr>
+            </table>
+          </div>
+          <div class="col-lg-2 about">
+            <h4 class="title">Giới thiệu</h4>
+            <ul>
+              <li><a href="#">Về ArtArt</a></li>
+              <li><a href="#">Tuyển dụng</a></li>
+              <li><a href="#">Liên hệ</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 support">
+            <h4 class="title">HỖ TRỢ</h4>
+            <ul>
+              <li><a href="#">Chính sách bảo hành</a></li>
+              <li><a href="#">Qui định đổi trả</a></li>
+              <li><a href="#">Giao hàng</a></li>
+              <li><a href="#">Thanh toán</a></li>
+              <li><a href="#">Câu hỏi thường gặp</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4 register-email">
+            <h4 class="title">Đăng ký nhận ưu đãi <br> & Khuyến mãi</h4>
+            <p class="p-1">Cơ hội nhận được thông tin và nhiều ưu đãi khác</p>
+            <div class="d-flex flex-row-reverse">
+               <div class="input-group">
+                <input type="text" class="form-control" placeholder="Your email..." aria-label="Your email...">
+                <span class="input-group-btn">
+                  <button class="btn btn-secondary" type="button">Đăng ký</button>
+                </span>
+              </div>
+            </div>
+            <p class="title">Kết nối với chúng tôi</p>
+          </div>
         </div>
       </div>
     </footer>
