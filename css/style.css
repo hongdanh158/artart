@@ -85,12 +85,13 @@ body {
   font-size: 1.6rem;
   /* font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; */
   font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  color:#444;
+  color:#000;
   position: relative;
   background: #fff;
 }
 a {
   text-decoration: none;
+  color: #eb5f36;
 }
 a:focus, a:active {
   outline: 0;
@@ -106,12 +107,12 @@ a:focus, a:active {
 
 }
 .carousel-indicators {
-  bottom: 30px;
+  bottom: 3rem;
 }
 .carousel-indicators li {
-  width: 15px;
-  height: 15px;
-  border-radius: 10px;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 1rem;
   background: #fff;
 }
 .carousel-indicators .active {
@@ -131,6 +132,21 @@ a:focus, a:active {
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(235,95,54,.25);
 }
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+  padding: 0 1rem;
+}
+.btn {
+    border: 1px solid transparent;
+    padding: 0.5rem 2rem;
+    font-size: 1.6rem;
+    font-family: "Helvetica Neue Bold", arial, sans-serif;
+    border-radius: .3rem;
+    background-color: #eb5f36;
+}
+.btn:hover {
+  background-color: #fb3900;
+  border: 1px solid #eb5f36;
+}
 /*header*/
 .header {
   margin-bottom: 3rem;
@@ -139,7 +155,7 @@ a:focus, a:active {
   background: #eb5f36;
 }
 .header .top-menu .promotion {
-  padding: 12px 0;
+  padding: 1.2rem 0;
   text-align: center;
 }
 .header .top-menu .promotion a {
@@ -148,7 +164,7 @@ a:focus, a:active {
   zoom: 1; /* Fix for IE7 */
   *display: inline; /* Fix for IE7 */
   color: #fff;
-  font-size: 30px;
+  font-size: 3rem;
   text-align: center;
   text-transform: uppercase;
 }
@@ -158,25 +174,26 @@ a:focus, a:active {
   font-size: 2.2rem;
 }
 .header .top-right-menu .nav-item {
-  margin-left: 20px;
+  margin-left: 2rem;
 }
 .header .main-nav {
   background-color: rgb(255, 255, 255);
-  box-shadow: 0px 0px 5px 0px rgba(0, 1, 1, 0.17);
+  box-shadow: 0px 0px 0.5rem 0px rgba(0, 1, 1, 0.17);
 }
 .header .main-nav .navbar-brand {
-  width: 287px;
-  height: 64px;
-  background: url(../images/logo.jpg) no-repeat;
-  background-position: 0 8px;
+  width: 28.7rem;
   display: inline-block;
   vertical-align: top;
   zoom: 1; /* Fix for IE7 */
   *display: inline; /* Fix for IE7 */
   color: transparent;
 }
+.header .main-nav .navbar-brand img {
+  width: 100%;
+  display: block;
+}
 .header .main-nav .nav {
-  margin-top: 18px;
+  margin-top: 1.8rem;
 }
 .header .main-nav .nav > li {
 }
@@ -184,7 +201,7 @@ a:focus, a:active {
   color: #000;
   text-transform: uppercase;
   border-right: 1px solid #000;
-  padding: 5px 20px;
+  padding: 0.5rem 2rem;
   border-radius: 0;
 }
 .header .main-nav .nav > li:last-child > a {
@@ -205,9 +222,9 @@ a:focus, a:active {
 .header .search {
   position: relative;
   width: 100%;
-  max-width: 366px;
-  padding: 6px 10px;
-  margin-top: 13px;
+  max-width: 36.6rem;
+  padding: 0.6rem 1rem;
+  margin-top: 1.3rem;
   background-image: url(../images/icon-search.png);
   background-repeat: no-repeat;
   background-position: right;
@@ -223,14 +240,14 @@ a:focus, a:active {
   background: #000;
 }
 .header .shopping-cart {
-  height: 100%;
+  width: 5.6rem;
   position: relative;
   margin-left: 16px;
 }
 .header .shopping-cart a {
   display: block;
   background-color: #eb5f36;
-  padding: 14px 24px;
+  padding: 1.4rem 2.4rem;
   text-align: center;
 }
 .header .shopping-cart a img {
@@ -242,4 +259,185 @@ a:focus, a:active {
   right: 10px;
   border-radius: 50px;
 }
+.carousel-control-next, .carousel-control-prev {
+  width: 6%;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  width: 34px;
+  height: 64px;
+    
+}
+.carousel-control-prev-icon {
+    background-image: url("../images/arl.png");
+}
+.carousel-control-next-icon {
+    background-image: url("../images/arr.png");
+}
 /*End header*/
+.home-news {
+  text-align: center;
+  padding: 2rem 0;
+}
+.section .title {
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1; /* Fix for IE7 */
+  *display: inline; /* Fix for IE7 */
+  font-size: 3rem;
+  padding: 1.5rem 0;
+  border-bottom: 2px solid #eb5f36;
+  margin-bottom: 2rem;
+  font-family: 'Helvetica Neue Bold', arial, sans-serif;
+  text-transform: uppercase;
+}
+.home-news > .home-text {
+  font-size: 3rem;
+  line-height: 1.2;
+  width: 100%;
+  max-width: 1070px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.home-news .list-news .item {
+  position: relative;
+  margin-bottom: 2rem
+}
+.home-news .list-news .item .thumbnail {
+  display: block;
+  width: 100%;
+  border:  none;
+}
+.home-news .list-news .item .thumbnail img {
+  display: block;
+  width: 100%;
+}
+.home-news .list-news .item .info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  width: calc(100% - 30px;);
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.5);
+  columns: #fff;
+  text-align: left;
+}
+.home-news .list-news .item .info .tit a {
+  font-family: "Helvetica Neue Bold", arial, sans-serif;
+  text-decoration: underline;
+  font-size: 2rem;
+  color: #fff;
+  line-height: 1.2;
+}
+.home-news .list-news .item .info .home-text {
+  font-family: "Arimo", arial, sans-serif;
+  font-size: 2rem;
+  color: #fff;
+  line-height: 1.2;
+}
+.home-video {
+  text-align: center;
+}
+.home-video .color-grey {
+  background: #e8e8e8;
+}
+.home-video .info {
+  font-family: "Arimo", arial, sans-serif;
+  font-size:  2rem;
+  line-height: 1.2;
+  text-align: left;
+  padding: 3rem;
+}
+.home-video .info .tit {
+  font-family: "Helvetica Neue Bold", arial, sans-serif;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+.home-video .info .home-text {
+  margin-bottom: 2rem;
+  text-align: justify;
+}
+.home-video .video .thumbnail {
+  width: 100%;
+  border: none;
+  display: block;
+}
+.hone-service {
+  width: 100%;
+  max-width: 1440px;
+  margin-top: 2rem;
+}
+.hone-service > div {
+  padding: 0 0.1rem;
+}
+.hone-service .item {
+  width: 100%;
+  border-radius: 3px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  padding: 5px 0 5px 0;
+  display: table;
+  margin-bottom: 2rem;
+}
+.hone-service .item .col {
+  display: table-cell;
+}
+.hone-service .item .icon {
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1; /* Fix for IE7 */
+  *display: inline; /* Fix for IE7 */
+  width: 52px;
+  height: 52px;
+  background-image: url('../images/icon.png');
+  background-repeat: no-repeat;
+}
+.hone-service .item.ship .icon {
+  background-position: 0 0;
+}
+.hone-service .item .text {
+  vertical-align: middle;
+  padding-left: 5px;
+  line-height: 1.5;
+  font-size: 1.4rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.hone-service .item .text strong {
+  font-family: "Helvetica Neue Bold", arial, sans-serif;
+  color: #eb5f36;
+  text-transform: uppercase;
+}
+.hone-service .item .text p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.home-products .card {
+  margin-bottom: 2rem;
+  border: none;
+}
+.home-products .card .card-img-top {
+  border: 1px solid #ebebeb;
+}
+.home-products .card .card-title {
+  font-size:  2rem;
+  font-family: "Helvetica Neue Bold", arial, sans-serif;
+  color: #000;
+  line-height: 1.5;
+}
+.home-products .card .rate {
+  color: #eb5f36;
+  line-height: 1.5;
+}
+.home-products .card .price {
+  font-size: 3rem;
+  font-family: "Helvetica Neue Bold", arial, sans-serif;
+  margin-bottom: 1.5rem;
+}
+.view-more {
+  text-decoration: underline;
+  font-size:  2rem;
+  font-family: "Helvetica Neue Bold", arial, sans-serif;
+  margin: 2rem;
+}
