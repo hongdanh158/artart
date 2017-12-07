@@ -346,6 +346,7 @@ a:focus, a:active {
 }
 .home-video {
   text-align: center;
+  margin-bottom: 3rem;
 }
 .home-video .color-grey {
   background: #e8e8e8;
@@ -375,6 +376,7 @@ a:focus, a:active {
   width: 100%;
   max-width: 1440px;
   margin-top: 2rem;
+  margin: 0 auto;
 }
 .hone-service > div {
   padding: 0 0.1rem;
