@@ -1,5 +1,9 @@
 @media only screen and (max-width: 1366px) {
 	html { font-size: 55%}
+	.container {
+	  width: 100%;
+	  max-width: 1300px;
+	}
 	.header .search {
 		margin-top: 1rem;
 	}
@@ -8,6 +12,7 @@
 	}
 	.header .shopping-cart a {
 		padding: 1.1rem 1rem;
+		line-height: 12px;
 	}
 	.header .shopping-cart .badge {
 	    top: 3px;
@@ -27,6 +32,10 @@
 	}
 	.footer .title {
 	  font-size: 2rem;
+	}
+	.header .main-nav .nav > li a  {
+		font-size: 1.6rem;
+		padding: 0.5rem 1rem;
 	}
 }
 @media only screen and (max-width: 1280px) {

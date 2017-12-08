@@ -1,3 +1,24 @@
+$(function() {
+	// Initialize Slidebars
+	var controller = new slidebars();
+	controller.init();
+	$( '.trigger-menu' ).on( 'click', function ( event ) {
+
+		if ($('.three-bars-icon').hasClass('close')) {
+			$('.three-bars-icon').removeClass('close');
+		}
+		else {
+			$('.three-bars-icon').addClass('close');
+		}
+		// Stop default action and bubbling
+		event.stopPropagation();
+		event.preventDefault();
+
+		// Toggle the Slidebar with id 'id-2'
+		controller.toggle( 'id-2');
+	});
+});
+
 $(function () {
 	$('.header .dropdown-menu li:has(ul) > a').append('<i class="fas fa-angle-right"></i>');
 	if ($('.left-menu').length) {

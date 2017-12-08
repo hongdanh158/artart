@@ -1,5 +1,5 @@
 <?php include('header.php') ?>
-    <div class="d-flex flex-row-reverse row">
+    <div class="body-right d-flex flex-row-reverse row">
       <div class="col-md-10 main-content">
         <div class="group-cate row">
           <div class="item col-md-3 col-sm-6">
@@ -73,8 +73,7 @@
         </div>
         <div class="section home-products">
           <div class="row">
-            <div class="col-md-4">
-              <div class="card">
+             <div class="card col-md-4">
                 <a href="#">
                     <img class="card-img-top" src="images/ex/thumbnail-4.jpg" alt="">
                 </a>
@@ -92,9 +91,7 @@
                   <a href="#" class="btn btn-primary">Mua hàng</a>
                 </div>
               </div>
-            </div>
-            <div class="col-md-4">
-              <div class="card">
+              <div class="card col-md-4">
                 <a href="#">
                     <img class="card-img-top" src="images/ex/thumbnail-4.jpg" alt="">
                 </a>
@@ -112,9 +109,7 @@
                   <a href="#" class="btn btn-primary">Mua hàng</a>
                 </div>
               </div>
-            </div>
-            <div class="col-md-4">
-              <div class="card">
+              <div class="card col-md-4">
                 <a href="#">
                     <img class="card-img-top" src="images/ex/thumbnail-4.jpg" alt="">
                 </a>
@@ -132,9 +127,7 @@
                   <a href="#" class="btn btn-primary">Mua hàng</a>
                 </div>
               </div>
-            </div>
-            <div class="col-md-4">
-              <div class="card">
+              <div class="card col-md-4">
                 <a href="#">
                     <img class="card-img-top" src="images/ex/thumbnail-4.jpg" alt="">
                 </a>
@@ -152,9 +145,7 @@
                   <a href="#" class="btn btn-primary">Mua hàng</a>
                 </div>
               </div>
-            </div>
-            <div class="col-md-4">
-              <div class="card">
+              <div class="card col-md-4">
                 <a href="#">
                     <img class="card-img-top" src="images/ex/thumbnail-4.jpg" alt="">
                 </a>
@@ -172,9 +163,7 @@
                   <a href="#" class="btn btn-primary">Mua hàng</a>
                 </div>
               </div>
-            </div>
-            <div class="col-md-4">
-              <div class="card">
+              <div class="card col-md-4">
                 <a href="#">
                     <img class="card-img-top" src="images/ex/thumbnail-4.jpg" alt="">
                 </a>
@@ -192,7 +181,6 @@
                   <a href="#" class="btn btn-primary">Mua hàng</a>
                 </div>
               </div>
-            </div>
           </div>
           <div class="d-flex justify-content-center"><a href="#" class="view-more">Xem thêm</a></div>
         </div>

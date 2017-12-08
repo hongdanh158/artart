@@ -59,20 +59,11 @@
       </div>
     </footer>
   </div>
-  <div off-canvas="id-2 right push right-menu">
+  <div off-canvas="id-2 left push left-menu">
     <div class="o-brand-mobile"></div>
     <div class="navbar-mobile"></div>
   </div>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script defer src="js/fontawesome-all.js"></script>
-  <!-- slidebar -->
-  <link rel="stylesheet" href="js/slidebars/slidebars.min.css">
-  <script src="js/slidebars/slidebars.min.js""></script>
-  <!-- End slidebar -->
-  <!-- slick -->
-  <link rel="stylesheet" href="js/slick/slick.css">
-  <link rel="stylesheet" href="js/slick/slick-theme.css">
-  <script src="js/slick/slick.min.js""></script>
-  <!-- End slick -->
   <script defer src="js/script.js"></script>

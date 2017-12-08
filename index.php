@@ -130,6 +130,7 @@
                   </script>
               </div>
             </div>
+            <script src="js/myvideo.js""></script>
           </div>
         </div>
       </div>
@@ -184,8 +185,25 @@
       <div class="section home-products">
         <div class="d-flex justify-content-center"><h2 class="title">Mua hàng</h2></div>
         <div class="row">
-          <div class="col-md-3">
-            <div class="card">
+           <div class="card col-md-3">
+              <a href="#">
+                  <img class="card-img-top" src="images/ex/thumbnail-4.jpg" alt="">
+              </a>
+              <div class="card-body">
+                <h4><a class="card-title" href="product-detail.php">Aenean commodo ligula</a></h4>
+                <div class="rate">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="scores">(5.3)</i>
+                </div>
+                <p class="card-text price">250.000 Đ <span class="old-price">350.000 Đ</span></p>
+                <a href="#" class="btn btn-primary">Mua hàng</a>
+              </div>
+            </div>
+            <div class="card col-md-3">
               <a href="#">
                   <img class="card-img-top" src="images/ex/thumbnail-4.jpg" alt="">
               </a>
@@ -203,9 +221,7 @@
                 <a href="#" class="btn btn-primary">Mua hàng</a>
               </div>
             </div>
-          </div>
-          <div class="col-md-3">
-            <div class="card">
+            <div class="card col-md-3">
               <a href="#">
                   <img class="card-img-top" src="images/ex/thumbnail-4.jpg" alt="">
               </a>
@@ -217,15 +233,13 @@
                   <i class="fa fa-star"></i>
                   <i class="fa fa-star"></i>
                   <i class="far fa-star"></i>
-                  <span class="scores">(5.3)</span>
+                  <i class="scores">(5.3)</i>
                 </div>
                 <p class="card-text price">250.000 Đ</p>
                 <a href="#" class="btn btn-primary">Mua hàng</a>
               </div>
             </div>
-          </div>
-          <div class="col-md-3">
-            <div class="card">
+            <div class="card col-md-3">
               <a href="#">
                   <img class="card-img-top" src="images/ex/thumbnail-4.jpg" alt="">
               </a>
@@ -237,15 +251,13 @@
                   <i class="fa fa-star"></i>
                   <i class="fa fa-star"></i>
                   <i class="far fa-star"></i>
-                  <span class="scores">(5.3)</span>
+                  <i class="scores">(5.3)</i>
                 </div>
                 <p class="card-text price">250.000 Đ</p>
                 <a href="#" class="btn btn-primary">Mua hàng</a>
               </div>
             </div>
-          </div>
-          <div class="col-md-3">
-            <div class="card">
+            <div class="card col-md-3">
               <a href="#">
                   <img class="card-img-top" src="images/ex/thumbnail-4.jpg" alt="">
               </a>
@@ -257,15 +269,13 @@
                   <i class="fa fa-star"></i>
                   <i class="fa fa-star"></i>
                   <i class="far fa-star"></i>
-                  <span class="scores">(5.3)</span>
+                  <i class="scores">(5.3)</i>
                 </div>
                 <p class="card-text price">250.000 Đ</p>
                 <a href="#" class="btn btn-primary">Mua hàng</a>
               </div>
             </div>
-          </div>
-          <div class="col-md-3">
-            <div class="card">
+            <div class="card col-md-3">
               <a href="#">
                   <img class="card-img-top" src="images/ex/thumbnail-4.jpg" alt="">
               </a>
@@ -277,15 +287,13 @@
                   <i class="fa fa-star"></i>
                   <i class="fa fa-star"></i>
                   <i class="far fa-star"></i>
-                  <span class="scores">(5.3)</span>
+                  <i class="scores">(5.3)</i>
                 </div>
                 <p class="card-text price">250.000 Đ</p>
                 <a href="#" class="btn btn-primary">Mua hàng</a>
               </div>
             </div>
-          </div>
-          <div class="col-md-3">
-            <div class="card">
+            <div class="card col-md-3">
               <a href="#">
                   <img class="card-img-top" src="images/ex/thumbnail-4.jpg" alt="">
               </a>
@@ -297,15 +305,13 @@
                   <i class="fa fa-star"></i>
                   <i class="fa fa-star"></i>
                   <i class="far fa-star"></i>
-                  <span class="scores">(5.3)</span>
+                  <i class="scores">(5.3)</i>
                 </div>
                 <p class="card-text price">250.000 Đ</p>
                 <a href="#" class="btn btn-primary">Mua hàng</a>
               </div>
             </div>
-          </div>
-          <div class="col-md-3">
-            <div class="card">
+            <div class="card col-md-3">
               <a href="#">
                   <img class="card-img-top" src="images/ex/thumbnail-4.jpg" alt="">
               </a>
@@ -317,51 +323,30 @@
                   <i class="fa fa-star"></i>
                   <i class="fa fa-star"></i>
                   <i class="far fa-star"></i>
-                  <span class="scores">(5.3)</span>
+                  <i class="scores">(5.3)</i>
                 </div>
                 <p class="card-text price">250.000 Đ</p>
                 <a href="#" class="btn btn-primary">Mua hàng</a>
               </div>
             </div>
-          </div>
-          <div class="col-md-3">
-            <div class="card">
-              <a href="#">
-                  <img class="card-img-top" src="images/ex/thumbnail-4.jpg" alt="">
-              </a>
-              <div class="card-body">
-                <h4><a class="card-title" href="product-detail.php">Aenean commodo ligula</a></h4>
-                <div class="rate">
-                   <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="far fa-star"></i>
-                  <span class="scores">(5.3)</span>
-                </div>
-                <p class="card-text price">250.000 Đ</p>
-                <a href="#" class="btn btn-primary">Mua hàng</a>
-              </div>
-            </div>
-          </div>
         </div>
         <div class="d-flex justify-content-center"><a href="#" class="view-more">Xem thêm</a></div>
       </div>
   <?php include('footer.php') ?>
-  <script src="js/myvideo.js""></script>
   <script>
     $(function(){
       $('.video-slider').slick({
-              dots: true,
-              slidesToShow: 1,
-              slidesToScroll: 1,
-              autoplay: true,
-              autoplaySpeed: 5000,
-              adaptiveHeight: true,
-          });
-          $('.slider').on('afterChange', function(event, slick, currentSlide){
-              // $(this).find('.slider-product').eq()
-          });
+            dots: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 5000,
+            adaptiveHeight: true,
+            fade: true,
+        });
+        $('.slider').on('afterChange', function(event, slick, currentSlide){
+            // $(this).find('.slider-product').eq()
+        });
     });
   </script>
 </body>

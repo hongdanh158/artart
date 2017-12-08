@@ -15,6 +15,17 @@
     <link rel="stylesheet" href="js/video/video.css">
     <script src="js/video/video.js""></script>
     <!-- End Video -->
+    <!-- slidebar -->
+    <link rel="stylesheet" href="js/slidebars/slidebars.min.css">
+    <script src="js/slidebars/slidebars.min.js""></script>
+    <!-- End slidebar -->
+    <!-- slick -->
+    <link rel="stylesheet" href="js/slick/slick.css">
+    <link rel="stylesheet" href="js/slick/slick-theme.css">
+    <script src="js/slick/slick.min.js""></script>
+    <!-- End slick -->
+    <script src="js/jquery.twbsPagination.min.js""></script>
+
   </head>
   <body>
 <div class="body" canvas="container">
@@ -45,6 +56,9 @@
       <!-- Navbar-->
         <nav class="main-nav">
           <div class="container">
+            <div id="cd-menu-trigger" class="js-toggle-right-slidebar js-menu-mobile">
+                <div class="trigger-menu"><span class="three-bars-icon"></span></div>
+            </div>
             <a class="navbar-brand hidden-text" href="#">
               <img src="images/logo.jpg" alt="">
             </a>
