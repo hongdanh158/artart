@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1440px) {
+@media only screen and (max-width: 1366px) {
 	html { font-size: 55%}
 	.header .search {
 		margin-top: 1rem;
@@ -21,6 +21,12 @@
 	}
 	.header .top-right-menu .nav-pills .nav-link {
 		font-size: 1.8rem;
+	}
+	.left-menu ul li a {
+	  font-size: 1.6rem;
+	}
+	.footer .title {
+	  font-size: 2rem;
 	}
 }
 @media only screen and (max-width: 1280px) {

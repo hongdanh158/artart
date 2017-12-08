@@ -1,89 +1,4 @@
-
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>ArtArt Home</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/responsive.css" rel="stylesheet">
-  </head>
-
-  <body>
-    <header class="header">
-      <!-- Top menu -->
-      <div class="top-menu">
-        <div class="container">
-          <div class="row mr-auto ">
-            <div class="promotion col-lg-8 align-middle">
-              <a href="#">Chương trình khuyến mại tháng 11 Sale cực khủng</a>
-            </div>
-            <div class="col-lg-4 navbar navbar-expand-md">
-              <div class="top-right-menu collapse navbar-collapse d-flex flex-row-reverse" id="navbarsExampleDefault">
-                <ul class="nav nav-pills">
-                  <li class="nav-item active">
-                    <a class="nav-link" href="#">Danh sách điểm bán hàng</a>
-                  </li>
-                  <li class="nav-item active">
-                    <a class="nav-link" href="#">Tài khoản</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- End Top menu -->
-      <!-- Navbar-->
-        <nav class="main-nav">
-          <div class="container">
-            <a class="navbar-brand hidden-text" href="#">
-              <img src="images/logo.jpg" alt="">
-            </a>
-            <div class="shopping-cart float-right">
-              <a href="#">
-                <img src="images/icon-shopping-cart.png" alt="">
-                <span class="badge badge-light">4</span>
-              </a>
-            </div>
-            <input class="form-control search float-right" type="text" placeholder="Tìm kiếm sản phẩm..." aria-label="Search">
-            <ul class="nav nav-pills float-right">
-              <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mua hàng</a>
-                  <ul class="dropdown-menu" aria-labelledby="dropdown01">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                  </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Thương hiệu</a>
-              </li>
-               <li class="nav-item">
-                <a class="nav-link" href="#">Ứng dụng</a>
-              </li>
-               <li class="nav-item">
-                <a class="nav-link" href="#">Kiến thức</a>
-              </li>
-              </li>
-               <li class="nav-item">
-                <a class="nav-link" href="#">Blog</a>
-              </li>
-            </ul>
-        </div>
-        </nav>
-      <!-- End Navbar -->
-    </header>
-    <main role="main" class="container">
+<?php include('header.php') ?>
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -169,16 +84,52 @@
       </div>
       <div class="section home-video">
         <div class="d-flex justify-content-center"><h2 class="title">Video và hoạt động mới</h2></div>
-        <div class="row color-grey">
-          <div class="col-lg-6 col-sm-12 info">
-              <h3 class="tit">Video: Những thủ thuật cần biết với dòng bút máy Twsbi</h3>
-              <div class="home-text">
-                Bút máy TWSBI được ưa chuộng bởi chất lượng tốt, giá thành vừa phải, đi kèm với cơ chế bơm mực piston độc đáo (thường chỉ thấy có ở các loại bút cực đắt tiền). Bút dùng cho nhu cầu viết hàng ngày.
+        <div class="video-slider">
+          <div class="slider">
+            <div class="row color-grey">
+              <div class="col-lg-6 col-sm-12 info">
+                  <h3 class="tit">Video: Những thủ thuật cần biết với dòng bút máy Twsbi</h3>
+                  <div class="home-text">
+                    Bút máy TWSBI được ưa chuộng bởi chất lượng tốt, giá thành vừa phải, đi kèm với cơ chế bơm mực piston độc đáo (thường chỉ thấy có ở các loại bút cực đắt tiền). Bút dùng cho nhu cầu viết hàng ngày.
+                  </div>
+                  <a href="video-detial.php" class="btn btn-primary">Xem thêm</a>
               </div>
-              <a href="video-detial.php" class="btn btn-primary">Xem thêm</a>
+              <div class="col-lg-6 col-sm-12 video">
+                  <!-- video-->
+                  <video id="video-1" poster="images/ex/thumbnail-3.jpg" class="video-js vjs-default-skin" controls="controls">
+                      <source src="https://storage.googleapis.com/xmenmedia/video/index3/doimat_low.mp4" type="video/mp4"/>
+                  </video>
+                  <!-- #end video-->
+                  <script>
+                    var video = videojs("video-1", {
+                      "poster": "images/ex/thumbnail-3.jpg",
+                    });
+                  </script>
+              </div>
+            </div>
           </div>
-           <div class="col-lg-6 col-sm-12 video">
-              <img src="images/ex/thumbnail-3.jpg" alt="" class="thumbnail">
+          <div class="slider">
+            <div class="row color-grey">
+              <div class="col-lg-6 col-sm-12 info">
+                  <h3 class="tit">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+                  <div class="home-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id expedita, nihil illo accusantium tempora labore rem aliquam facere harum! Quod?
+                  </div>
+                  <a href="video-detial.php" class="btn btn-primary">Xem thêm</a>
+              </div>
+              <div class="col-lg-6 col-sm-12 video">
+                  <!-- video-->
+                  <video id="video-2" poster="images/ex/thumbnail-5.jpg" class="video-js vjs-default-skin" controls="controls">
+                      <source src="https://storage.googleapis.com/xmenmedia/video/index3/doimat_low.mp4" type="video/mp4"/>
+                  </video>
+                  <!-- #end video-->
+                  <script>
+                    var video = videojs("video-2", {
+                      "poster": "images/ex/thumbnail-5.jpg",
+                    });
+                  </script>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -241,12 +192,31 @@
               <div class="card-body">
                 <h4><a class="card-title" href="product-detail.php">Aenean commodo ligula</a></h4>
                 <div class="rate">
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star-half-o"></span>
-                  <span class="fa fa-star-o"></span>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="scores">(5.3)</i>
+                </div>
+                <p class="card-text price">250.000 Đ</p>
+                <a href="#" class="btn btn-primary">Mua hàng</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <a href="#">
+                  <img class="card-img-top" src="images/ex/thumbnail-4.jpg" alt="">
+              </a>
+              <div class="card-body">
+                <h4><a class="card-title" href="product-detail.php">Aenean commodo ligula</a></h4>
+                <div class="rate">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="far fa-star"></i>
                   <span class="scores">(5.3)</span>
                 </div>
                 <p class="card-text price">250.000 Đ</p>
@@ -262,12 +232,11 @@
               <div class="card-body">
                 <h4><a class="card-title" href="product-detail.php">Aenean commodo ligula</a></h4>
                 <div class="rate">
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star-half-o"></span>
-                  <span class="fa fa-star-o"></span>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="far fa-star"></i>
                   <span class="scores">(5.3)</span>
                 </div>
                 <p class="card-text price">250.000 Đ</p>
@@ -283,12 +252,11 @@
               <div class="card-body">
                 <h4><a class="card-title" href="product-detail.php">Aenean commodo ligula</a></h4>
                 <div class="rate">
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star-half-o"></span>
-                  <span class="fa fa-star-o"></span>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="far fa-star"></i>
                   <span class="scores">(5.3)</span>
                 </div>
                 <p class="card-text price">250.000 Đ</p>
@@ -304,12 +272,11 @@
               <div class="card-body">
                 <h4><a class="card-title" href="product-detail.php">Aenean commodo ligula</a></h4>
                 <div class="rate">
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star-half-o"></span>
-                  <span class="fa fa-star-o"></span>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="far fa-star"></i>
                   <span class="scores">(5.3)</span>
                 </div>
                 <p class="card-text price">250.000 Đ</p>
@@ -325,12 +292,11 @@
               <div class="card-body">
                 <h4><a class="card-title" href="product-detail.php">Aenean commodo ligula</a></h4>
                 <div class="rate">
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star-half-o"></span>
-                  <span class="fa fa-star-o"></span>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="far fa-star"></i>
                   <span class="scores">(5.3)</span>
                 </div>
                 <p class="card-text price">250.000 Đ</p>
@@ -346,12 +312,11 @@
               <div class="card-body">
                 <h4><a class="card-title" href="product-detail.php">Aenean commodo ligula</a></h4>
                 <div class="rate">
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star-half-o"></span>
-                  <span class="fa fa-star-o"></span>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="far fa-star"></i>
                   <span class="scores">(5.3)</span>
                 </div>
                 <p class="card-text price">250.000 Đ</p>
@@ -367,33 +332,11 @@
               <div class="card-body">
                 <h4><a class="card-title" href="product-detail.php">Aenean commodo ligula</a></h4>
                 <div class="rate">
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star-half-o"></span>
-                  <span class="fa fa-star-o"></span>
-                  <span class="scores">(5.3)</span>
-                </div>
-                <p class="card-text price">250.000 Đ</p>
-                <a href="#" class="btn btn-primary">Mua hàng</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="card">
-              <a href="#">
-                  <img class="card-img-top" src="images/ex/thumbnail-4.jpg" alt="">
-              </a>
-              <div class="card-body">
-                <h4><a class="card-title" href="product-detail.php">Aenean commodo ligula</a></h4>
-                <div class="rate">
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star-half-o"></span>
-                  <span class="fa fa-star-o"></span>
+                   <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="far fa-star"></i>
                   <span class="scores">(5.3)</span>
                 </div>
                 <p class="card-text price">250.000 Đ</p>
@@ -404,63 +347,22 @@
         </div>
         <div class="d-flex justify-content-center"><a href="#" class="view-more">Xem thêm</a></div>
       </div>
-    </main><!-- /.container -->
-    <footer class="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4 info">
-            <a href="#" class="logo"><img src="images/logo-2.png" alt=""></a>
-            <table>
-              <tr>
-                <td>Trụ sở:</td><td> <a href="https://www.google.com/maps/place/18+Nguy%E1%BB%85n+C%E1%BB%ADu+V%C3%A2n,+ph%C6%B0%E1%BB%9Dng+17,+B%C3%ACnh+Th%E1%BA%A1nh,+H%E1%BB%93+Ch%C3%AD+Minh,+Vietnam/@10.795689,106.7056353,17z/data=!3m1!4b1!4m5!3m4!1s0x317528b112f9339d:0x73124c3404a37d36!8m2!3d10.795689!4d106.707824" target="_blank">18/6C Nguyễn Cửu Vân, P. 17, Q. Bình Thạnh, TP.HCM</a></td>
-              </tr>
-              <tr>
-                <td>Hotline:</td><td> <a href="tel:0914159319">0914159319</a></td>
-              </tr>
-              <tr>
-                <td>Email:</td><td> <a href="mailto:aas.cskh@gmail.com">aas.cskh@gmail.com</a></td>
-              </tr>
-            </table>
-          </div>
-          <div class="col-lg-2 about">
-            <h4 class="title">Giới thiệu</h4>
-            <ul>
-              <li><a href="#">Về ArtArt</a></li>
-              <li><a href="#">Tuyển dụng</a></li>
-              <li><a href="#">Liên hệ</a></li>
-            </ul>
-          </div>
-          <div class="col-lg-2 support">
-            <h4 class="title">HỖ TRỢ</h4>
-            <ul>
-              <li><a href="#">Chính sách bảo hành</a></li>
-              <li><a href="#">Qui định đổi trả</a></li>
-              <li><a href="#">Giao hàng</a></li>
-              <li><a href="#">Thanh toán</a></li>
-              <li><a href="#">Câu hỏi thường gặp</a></li>
-            </ul>
-          </div>
-          <div class="col-lg-4 register-email">
-            <h4 class="title">Đăng ký nhận ưu đãi <br> & Khuyến mãi</h4>
-            <p class="p-1">Cơ hội nhận được thông tin và nhiều ưu đãi khác</p>
-            <div class="d-flex flex-row-reverse">
-               <div class="input-group">
-                <input type="text" class="form-control" placeholder="Your email..." aria-label="Your email...">
-                <span class="input-group-btn">
-                  <button class="btn btn-secondary" type="button">Đăng ký</button>
-                </span>
-              </div>
-            </div>
-            <p class="title">Kết nối với chúng tôi</p>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-  </body>
+  <?php include('footer.php') ?>
+  <script src="js/myvideo.js""></script>
+  <script>
+    $(function(){
+      $('.video-slider').slick({
+              dots: true,
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              autoplay: true,
+              autoplaySpeed: 5000,
+              adaptiveHeight: true,
+          });
+          $('.slider').on('afterChange', function(event, slick, currentSlide){
+              // $(this).find('.slider-product').eq()
+          });
+    });
+  </script>
+</body>
 </html>
