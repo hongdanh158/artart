@@ -84,36 +84,38 @@
             </div>
             <ul class="nav nav-pills float-right">
               <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mua hàng</a>
+                  <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mua hàng</a>
                   <ul class="dropdown-menu" aria-labelledby="dropdown01">
                     <li><a class="dropdown-item" href="#">Action</a></li>
                     <li><a class="dropdown-item" href="#">Action</a></li>
                     <li><a class="dropdown-item" href="#">Action</a></li>
                     <li><a class="dropdown-item" href="#">Action</a>
-                      <div class="d-flex justify-content-center megamenu">
                         <ul>
-                          <li class="cate-title">Nhóm sản phẩm 1</li>
-                          <li><a href="#">Action</a></li>
-                          <li><a href="#">Action</a></li>
-                          <li><a href="#">Action</a></li>
-                          <li><a href="#">Action</a></li>
+                          <li><a href="#">Nhóm sản phẩm 1</a>
+                            <ul>
+                              <li><a href="#">Action</a></li>
+                              <li><a href="#">Action</a></li>
+                              <li><a href="#">Action</a></li>
+                              <li><a href="#">Action</a></li>
+                            </ul>
+                          </li>
+                          <li><a href="#">Nhóm sản phẩm 1</a>
+                            <ul>
+                              <li><a href="#">Action</a></li>
+                              <li><a href="#">Action</a></li>
+                              <li><a href="#">Action</a></li>
+                              <li><a href="#">Action</a></li>
+                            </ul>
+                          </li>
+                          <li><a href="#">Nhóm sản phẩm 1</a>
+                            <ul>
+                              <li><a href="#">Action</a></li>
+                              <li><a href="#">Action</a></li>
+                              <li><a href="#">Action</a></li>
+                              <li><a href="#">Action</a></li>
+                            </ul>
+                          </li>
                         </ul>
-                        <ul>
-                          <li class="cate-title">Nhóm sản phẩm 2</li>
-                          <li><a href="#">Action</a></li>
-                          <li><a href="#">Action</a></li>
-                          <li><a href="#">Action</a></li>
-                          <li><a href="#">Action</a></li>
-                        </ul>
-                        <ul>
-                          <li class="cate-title">Nhóm sản phẩm 3</li>
-                          <li><a href="#">Action</a></li>
-                          <li><a href="#">Action</a></li>
-                          <li><a href="#">Action</a></li>
-                          <li><a href="#">Action</a></li>
-                        </ul>
-                      </div>
-                      
                     </li>
                   </ul>
               </li>

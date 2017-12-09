@@ -79,4 +79,33 @@ $(function () {
 	      }
 	    );
 	}
+	if ($('.nav-mobile').length) {
+	    $(".nav-mobile li").each(function(){
+	      if ($(this).has("ul").length) {
+	        $(this).find('a').eq(0).addClass('hassub')
+	      };
+	    });
+	    $.each($(".nav-mobile li"), function (index, obj) {
+	      if ($(obj).has("ul").length) {
+	          $(obj).has("ul").find("a:first").attr('href', 'javascript:void(0)');
+	      }
+	    });
+	    $(".nav-mobile > li").click(
+	      function() {
+	        $(".nav-mobile  > li").removeClass('active');
+	        $(this).addClass('active');
+	        if ($(this).has("ul").length) {
+	          $(".nav-mobile  > ul > li").not('.active').find('ul').slideUp(400);
+	          $(this).find('ul').eq(0).slideDown(400);
+	        };
+	      }
+	    );
+	    $(".nav-mobile > li > ul > li ").click(
+	      function() {
+	        if ($(this).has("ul").length) {
+	          $(".nav-mobile > li > ul > li ul").slideDown(400);
+	        };
+	      }
+	    );
+	}
 })
