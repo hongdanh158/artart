@@ -1,6 +1,6 @@
 <?php include('header.php') ?>
     <div class="body-right d-flex flex-row-reverse row">
-      <div class="col-md-10 main-content">
+      <div class="col-lg-10 main-content">
         <div class="article-list">
           <div class="row">
             <div class="col-md-2 image">
@@ -95,7 +95,7 @@
            </script>
         </div>
       </div>
-      <div class="col-md-2 sidebar">
+      <div class="col-lg-2 sidebar">
         <div class="block-left left-menu no-bold">
           <h3 class="label">DANH MỤC BLOG</h3>
           <ul>

@@ -59,15 +59,23 @@
 					    </div>
 					</div>
 				    <script>
-				    	if ($('.product-images .big-image').length) {
-							$('.product-images .big-image').width($(window).width()*500/1920)
-						}
+				    	$(window).on('load resize', function () {
+						    resizeProductBigImage();
+						});
+				    	function resizeProductBigImage() {
+				    		if ($('.product-images .big-image').length) {
+					    		if ($(window).width() > 1024) {
+					    			$('.product-images .big-image').width($(window).width()*500/1920);
+					    		}
+							}
+				    	}
 				    	$('.big-image').slick({
-						  slidesToShow: 1,
-						  slidesToScroll: 1,
-						  arrows: false,
-						  fade: true,
-						  asNavFor: '.img-slider'
+				    		dots: true,
+							slidesToShow: 1,
+							slidesToScroll: 1,
+							arrows: false,
+							fade: true,
+							asNavFor: '.img-slider'
 						});
 				    	$('.img-slider').slick({
 						  centerPadding: '60px',
@@ -101,7 +109,7 @@
 						});
 				    </script>
 				    <div class="row more-info">
-				    	<table class="table table-striped">
+				    	<table class="table table-striped table-responsive-md">
 						  <thead>
 						    <tr>
 						      <th style="width: 1%;" scope="col">IMAGE</th>
@@ -228,12 +236,33 @@
 							slidesToScroll: 4,
 							prevArrow: '.arrow-left',
             				nextArrow: '.arrow-right',
+            				centerMode: false,
+            				responsive: [
+						    {
+						      breakpoint: 768,
+						      settings: {
+						        arrows: false,
+						        centerMode: true,
+						        centerPadding: '40px',
+						        slidesToShow: 2
+						      }
+						    },
+						    {
+						      breakpoint: 480,
+						      settings: {
+						        arrows: false,
+						        centerMode: true,
+						        centerPadding: '40px',
+						        slidesToShow: 1
+						      }
+						    }
+						  ]
 						});
 				    </script>
 				    <div class="section home-products">
 				        <div class="d-flex justify-content-center"><h2 class="title">Mua hàng</h2></div>
 				        <div class="row">
-				            <div class="card col-md-3">
+				            <div class="card col-lg-3 col-md-3 col-sm-6">
 				              <a href="#">
 				                  <img class="card-img-top" src="images/ex/thumbnail-4.jpg" alt="">
 				              </a>
@@ -251,7 +280,7 @@
 				                <a href="#" class="btn btn-primary">Mua hàng</a>
 				              </div>
 				            </div>
-				          	<div class="card col-md-3">
+				          	<div class="card col-lg-3 col-md-3 col-sm-6">
 				              <a href="#">
 				                  <img class="card-img-top" src="images/ex/thumbnail-4.jpg" alt="">
 				              </a>
@@ -269,7 +298,7 @@
 				                <a href="#" class="btn btn-primary">Mua hàng</a>
 				              </div>
 				            </div>
-				            <div class="card col-md-3">
+				            <div class="card col-lg-3 col-md-3 col-sm-6">
 				              <a href="#">
 				                  <img class="card-img-top" src="images/ex/thumbnail-4.jpg" alt="">
 				              </a>

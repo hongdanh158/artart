@@ -2,7 +2,7 @@
     <footer class="footer">
       <div class="container">
         <div class="row">
-          <div class="col-lg-4 info">
+          <div class="col-lg-4 col-md-6 info">
             <a href="#" class="logo"><img src="images/logo-2.png" alt=""></a>
             <table>
               <tr>
@@ -16,7 +16,7 @@
               </tr>
             </table>
           </div>
-          <div class="col-lg-2 about">
+          <div class="col-lg-2 col-md-6 about">
             <h4 class="title">Giới thiệu</h4>
             <ul>
               <li><a href="#">Về ArtArt</a></li>
@@ -24,7 +24,7 @@
               <li><a href="#">Liên hệ</a></li>
             </ul>
           </div>
-          <div class="col-lg-2 support">
+          <div class="col-lg-2 col-md-6 support">
             <h4 class="title">HỖ TRỢ</h4>
             <ul>
               <li><a href="#">Chính sách bảo hành</a></li>
@@ -34,7 +34,7 @@
               <li><a href="#">Câu hỏi thường gặp</a></li>
             </ul>
           </div>
-          <div class="col-lg-4 register-email">
+          <div class="col-lg-4 col-md-6 register-email">
             <h4 class="title">Đăng ký nhận ưu đãi <br> & Khuyến mãi</h4>
             <p class="p-1">Cơ hội nhận được thông tin và nhiều ưu đãi khác</p>
             <div class="d-flex flex-row-reverse">

@@ -1,6 +1,6 @@
 <?php include('header.php') ?>
     <div class="body-right d-flex flex-row-reverse row">
-      <div class="col-md-10 main-content blog-detail">
+      <div class="col-lg-10 main-content blog-detail">
         <div class="right content">
           <h3 class="title">Kid's Cricket Jar</h3>
           <p class="author">By Tailor</p>
@@ -55,7 +55,7 @@
            <div class="d-flex justify-content-center"></div>
         </div>
       </div>
-      <div class="col-md-2 sidebar">
+      <div class="col-lg-2 sidebar">
         <div class="block-left left-menu no-bold">
           <h3 class="label">DANH MỤC BLOG</h3>
           <ul>

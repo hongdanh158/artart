@@ -1,10 +1,10 @@
 <?php include('header.php') ?>
     <div class="body-right d-flex flex-row-reverse row">
-      <div class="col-md-10 main-content">
+      <div class="col-lg-10 main-content">
         <div class="section home-products">
           <h2 class="title left">Craft Painting How-To Articles</h2>
           <div class="row">
-              <div class="card col-md-4">
+              <div class="card col-md-4 col-sm-6">
                 <a href="#">
                     <img class="card-img-top" src="images/ex/thumbnail-4.jpg" alt="">
                 </a>
@@ -20,7 +20,7 @@
                   <p>See project details from Heather Thoming</p>
                 </div>
               </div>
-              <div class="card col-md-4">
+              <div class="card col-md-4 col-sm-6">
                 <a href="#">
                     <img class="card-img-top" src="images/ex/thumbnail-4.jpg" alt="">
                 </a>
@@ -36,7 +36,7 @@
                   <p>See project details from Heather Thoming</p>
                 </div>
               </div>
-              <div class="card col-md-4">
+              <div class="card col-md-4 col-sm-6">
                 <a href="#">
                     <img class="card-img-top" src="images/ex/thumbnail-4.jpg" alt="">
                 </a>
@@ -52,7 +52,7 @@
                   <p>See project details from Heather Thoming</p>
                 </div>
               </div>
-              <div class="card col-md-4">
+              <div class="card col-md-4 col-sm-6">
                 <a href="#">
                     <img class="card-img-top" src="images/ex/thumbnail-4.jpg" alt="">
                 </a>
@@ -68,7 +68,7 @@
                   <p>See project details from Heather Thoming</p>
                 </div>
               </div>
-              <div class="card col-md-4">
+              <div class="card col-md-4 col-sm-6">
                 <a href="#">
                     <img class="card-img-top" src="images/ex/thumbnail-4.jpg" alt="">
                 </a>
@@ -84,7 +84,7 @@
                   <p>See project details from Heather Thoming</p>
                 </div>
               </div>
-              <div class="card col-md-4">
+              <div class="card col-md-4 col-sm-6">
                 <a href="#">
                     <img class="card-img-top" src="images/ex/thumbnail-4.jpg" alt="">
                 </a>
@@ -103,7 +103,7 @@
           </div>
           <h2 class="title left">Craft Painting How-To Articles</h2>
           <div class="row">
-              <div class="card col-md-4">
+              <div class="card col-md-4 col-sm-6">
                 <a href="#" class="video-thumbnail">
                     <img class="card-img-top" src="images/ex/thumbnail-13.jpg" alt="">
                 </a>
@@ -119,7 +119,7 @@
                   <p>See project details from Heather Thoming</p>
                 </div>
               </div>
-              <div class="card col-md-4">
+              <div class="card col-md-4 col-sm-6">
                 <a href="#" class="video-thumbnail">
                     <img class="card-img-top" src="images/ex/thumbnail-13.jpg" alt="">
                 </a>
@@ -135,7 +135,7 @@
                   <p>See project details from Heather Thoming</p>
                 </div>
               </div>
-              <div class="card col-md-4">
+              <div class="card col-md-4 col-sm-6">
                 <a href="#" class="video-thumbnail">
                     <img class="card-img-top" src="images/ex/thumbnail-13.jpg" alt="">
                 </a>
@@ -155,7 +155,7 @@
           <div class="d-flex justify-content-center"><a href="#" class="view-more">Xem thêm</a></div>
         </div>
       </div>
-      <div class="col-md-2 sidebar">
+      <div class="col-lg-2 sidebar">
         <div class="block-left left-menu learn">
          <h3 class="label">LEARN AT ARTART</h3>
          <ul>

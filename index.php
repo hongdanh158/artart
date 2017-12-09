@@ -185,7 +185,7 @@
       <div class="section home-products">
         <div class="d-flex justify-content-center"><h2 class="title">Mua hàng</h2></div>
         <div class="row">
-           <div class="card col-md-3">
+           <div class="card col-md-3 col-sm-6">
               <a href="#">
                   <img class="card-img-top" src="images/ex/thumbnail-4.jpg" alt="">
               </a>
@@ -203,7 +203,7 @@
                 <a href="#" class="btn btn-primary">Mua hàng</a>
               </div>
             </div>
-            <div class="card col-md-3">
+            <div class="card col-md-3 col-sm-6">
               <a href="#">
                   <img class="card-img-top" src="images/ex/thumbnail-4.jpg" alt="">
               </a>
@@ -221,7 +221,7 @@
                 <a href="#" class="btn btn-primary">Mua hàng</a>
               </div>
             </div>
-            <div class="card col-md-3">
+            <div class="card col-md-3 col-sm-6">
               <a href="#">
                   <img class="card-img-top" src="images/ex/thumbnail-4.jpg" alt="">
               </a>
@@ -239,7 +239,7 @@
                 <a href="#" class="btn btn-primary">Mua hàng</a>
               </div>
             </div>
-            <div class="card col-md-3">
+            <div class="card col-md-3 col-sm-6">
               <a href="#">
                   <img class="card-img-top" src="images/ex/thumbnail-4.jpg" alt="">
               </a>
@@ -257,7 +257,7 @@
                 <a href="#" class="btn btn-primary">Mua hàng</a>
               </div>
             </div>
-            <div class="card col-md-3">
+            <div class="card col-md-3 col-sm-6">
               <a href="#">
                   <img class="card-img-top" src="images/ex/thumbnail-4.jpg" alt="">
               </a>
@@ -275,7 +275,7 @@
                 <a href="#" class="btn btn-primary">Mua hàng</a>
               </div>
             </div>
-            <div class="card col-md-3">
+            <div class="card col-md-3 col-sm-6">
               <a href="#">
                   <img class="card-img-top" src="images/ex/thumbnail-4.jpg" alt="">
               </a>
@@ -293,7 +293,7 @@
                 <a href="#" class="btn btn-primary">Mua hàng</a>
               </div>
             </div>
-            <div class="card col-md-3">
+            <div class="card col-md-3 col-sm-6">
               <a href="#">
                   <img class="card-img-top" src="images/ex/thumbnail-4.jpg" alt="">
               </a>
@@ -311,7 +311,7 @@
                 <a href="#" class="btn btn-primary">Mua hàng</a>
               </div>
             </div>
-            <div class="card col-md-3">
+            <div class="card col-md-3 col-sm-6">
               <a href="#">
                   <img class="card-img-top" src="images/ex/thumbnail-4.jpg" alt="">
               </a>

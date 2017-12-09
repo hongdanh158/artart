@@ -9,7 +9,7 @@
       </nav>
     </div>
     <div class="row">
-      <div class="col-md-10 main-content project-detail">
+      <div class="col-lg-10 main-content project-detail">
         <div class="left content">
           <h3 class="title">Kid's Cricket Jar</h3>
           <p>Remember the days of catching fireflies in a jar and watching them glow? You can share that fun with your kids when you create this simple Cricket Jar together. It's great for holding crawly creatures your kids may find in the backyard.</p>
@@ -66,11 +66,11 @@
            <div class="d-flex justify-content-center"></div>
         </div>
       </div>
-      <div class="col-md-2 sidebar">
+      <div class="col-lg-2 sidebar">
         <div class="section">
           <h3 class="title left">Vật tư sử dụng</h3>
-          <div class="section home-products">
-            <div class="card">
+          <div class="row section home-products">
+            <div class="card col-lg-12 col-md-6">
                 <a href="#">
                     <img class="card-img-top" src="images/ex/thumbnail-4.jpg" alt="">
                 </a>
@@ -88,7 +88,7 @@
                   <a href="#" class="btn btn-primary">Mua hàng</a>
                 </div>
             </div>
-            <div class="card">
+            <div class="card col-lg-12 col-md-6">
                 <a href="#">
                     <img class="card-img-top" src="images/ex/thumbnail-4.jpg" alt="">
                 </a>
@@ -106,7 +106,7 @@
                   <a href="#" class="btn btn-primary">Mua hàng</a>
                 </div>
             </div>
-            <div class="card">
+            <div class="card col-lg-12 col-md-6">
                 <a href="#">
                     <img class="card-img-top" src="images/ex/thumbnail-4.jpg" alt="">
                 </a>

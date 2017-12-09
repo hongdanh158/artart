@@ -34,17 +34,21 @@
       <div class="top-menu">
         <div class="container">
           <div class="row mr-auto ">
-            <div class="promotion col-lg-8 align-middle">
+            <div class="promotion col-lg-8 col-md-6 align-middle">
               <a href="#">Chương trình khuyến mại tháng 11 Sale cực khủng </a>
             </div>
-            <div class="col-lg-4 navbar navbar-expand-md">
+            <div class="col-lg-4  col-md-6 navbar navbar-expand-md">
               <div class="top-right-menu collapse navbar-collapse d-flex flex-row-reverse" id="navbarsExampleDefault">
                 <ul class="nav nav-pills">
                   <li class="nav-item active">
                     <a class="nav-link" href="#">Danh sách điểm bán hàng</a>
                   </li>
                   <li class="nav-item active">
-                    <a class="nav-link" href="#">Tài khoản</a>
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tài khoản</a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdown02">
+                       <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                    </ul>
                   </li>
                 </ul>
               </div>
@@ -68,7 +72,12 @@
                 <span class="badge badge-light">4</span>
               </a>
             </div>
-            <input class="form-control search float-right" type="text" placeholder="Tìm kiếm sản phẩm..." aria-label="Search">
+            <div class="input-group search">
+              <input type="text" class="form-control"  placeholder="Tìm kiếm sản phẩm..." aria-label="Tìm kiếm sản phẩm...">
+              <span class="input-group-btn">
+                <button type="button"><img src=" images/icon-search.png" alt=""></button>
+              </span>
+            </div>
             <ul class="nav nav-pills float-right">
               <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mua hàng</a>
