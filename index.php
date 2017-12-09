@@ -86,14 +86,7 @@
         <div class="d-flex justify-content-center"><h2 class="title">Video và hoạt động mới</h2></div>
         <div class="video-slider">
           <div class="slider">
-            <div class="row color-grey">
-              <div class="col-lg-6 col-sm-12 info">
-                  <h3 class="tit">Video: Những thủ thuật cần biết với dòng bút máy Twsbi</h3>
-                  <div class="home-text">
-                    Bút máy TWSBI được ưa chuộng bởi chất lượng tốt, giá thành vừa phải, đi kèm với cơ chế bơm mực piston độc đáo (thường chỉ thấy có ở các loại bút cực đắt tiền). Bút dùng cho nhu cầu viết hàng ngày.
-                  </div>
-                  <a href="video-detial.php" class="btn btn-primary">Xem thêm</a>
-              </div>
+            <div class="row color-grey d-flex flex-row-reverse">
               <div class="col-lg-6 col-sm-12 video">
                   <!-- video-->
                   <video id="video-1" poster="images/ex/thumbnail-3.jpg" class="video-js vjs-default-skin" controls="controls">
@@ -106,17 +99,17 @@
                     });
                   </script>
               </div>
-            </div>
-          </div>
-          <div class="slider">
-            <div class="row color-grey">
               <div class="col-lg-6 col-sm-12 info">
-                  <h3 class="tit">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+                  <h3 class="tit">Video: Những thủ thuật cần biết với dòng bút máy Twsbi</h3>
                   <div class="home-text">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id expedita, nihil illo accusantium tempora labore rem aliquam facere harum! Quod?
+                    Bút máy TWSBI được ưa chuộng bởi chất lượng tốt, giá thành vừa phải, đi kèm với cơ chế bơm mực piston độc đáo (thường chỉ thấy có ở các loại bút cực đắt tiền). Bút dùng cho nhu cầu viết hàng ngày.
                   </div>
                   <a href="video-detial.php" class="btn btn-primary">Xem thêm</a>
               </div>
+            </div>
+          </div>
+          <div class="slider">
+            <div class="row color-grey d-flex flex-row-reverse">
               <div class="col-lg-6 col-sm-12 video">
                   <!-- video-->
                   <video id="video-2" poster="images/ex/thumbnail-5.jpg" class="video-js vjs-default-skin" controls="controls">
@@ -128,6 +121,13 @@
                       "poster": "images/ex/thumbnail-5.jpg",
                     });
                   </script>
+              </div>
+              <div class="col-lg-6 col-sm-12 info">
+                  <h3 class="tit">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+                  <div class="home-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id expedita, nihil illo accusantium tempora labore rem aliquam facere harum! Quod?
+                  </div>
+                  <a href="video-detial.php" class="btn btn-primary">Xem thêm</a>
               </div>
             </div>
             <script src="js/myvideo.js""></script>

@@ -17,6 +17,24 @@ $(function() {
 		// Toggle the Slidebar with id 'id-2'
 		controller.toggle( 'id-2');
 	});
+	if ($(window).width() <= 1024) {
+		var html = '<ul class="nav-mobile">' + $('.main-nav .nav').html() + '</ul>';
+		$('.sidebar .content').html(html);
+		$('.nav-mobile li a').each(function(index, el) {
+			$(this).removeAttr('class');
+			$(this).attr({
+				'id': '',
+				'data-toggle': '',
+				'aria-haspopup': '',
+			});
+		});
+		$('.nav-mobile li').each(function(index, el) {
+			$(this).removeAttr('class')
+		});
+		$('.nav-mobile ul').each(function(index, el) {
+			$(this).removeAttr('class');
+		});
+	}
 });
 
 $(function () {

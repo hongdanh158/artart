@@ -37,19 +37,48 @@
         </div>
         <div class="comment">
           <div class="label">Bình luận</div>
-          <div class="d-table info">
-            <div class="d-table-cell">
-              <a href="#" class="avatar"><img src="images/ex/thumbnail-14.jpg" alt=""></a>
+          <div class="user-coment">
+            <div class="d-table info">
+              <div class="d-table-cell">
+                <a href="#" class="avatar"><img src="images/ex/thumbnail-14.jpg" alt=""></a>
+              </div>
+              <div class="d-table-cell">
+                <div class="name">TANIA <span class="say">says</span></div>
+                <div class="time">November 2, 2017 at 11:20 pm</div>
+              </div>
             </div>
-            <div class="d-table-cell">
-              <div class="name">TANIA <span class="say">says</span></div>
-              <div class="time">November 2, 2017 at 11:20 pm</div>
-            </div>
+            <div class="comment-detail">Oh my goodness, I love these! The little garland is my favorite! I was going to say gift tags but you’ve got that covered… how about table place setting markers?!</div>
+            <a href="#" class="reply">Reply</a>
           </div>
-          <div class="comment-detail">Oh my goodness, I love these! The little garland is my favorite! I was going to say gift tags but you’ve got that covered… how about table place setting markers?!</div>
-          <a href="#" class="reply">Reply</a>
+          <div class="user-coment">
+            <div class="d-table info">
+              <div class="d-table-cell">
+                <a href="#" class="avatar"><img src="images/ex/thumbnail-14.jpg" alt=""></a>
+              </div>
+              <div class="d-table-cell">
+                <div class="name">TANIA <span class="say">says</span></div>
+                <div class="time">November 2, 2017 at 11:20 pm</div>
+              </div>
+            </div>
+            <div class="comment-detail">Oh my goodness, I love these! The little garland is my favorite! I was going to say gift tags but you’ve got that covered… how about table place setting markers?!</div>
+            <a href="#" class="reply">Reply</a>
+          </div>
+          <div class="user-coment">
+            <div class="d-table info">
+              <div class="d-table-cell">
+                <a href="#" class="avatar"><img src="images/ex/thumbnail-14.jpg" alt=""></a>
+              </div>
+              <div class="d-table-cell">
+                <div class="name">TANIA <span class="say">says</span></div>
+                <div class="time">November 2, 2017 at 11:20 pm</div>
+              </div>
+            </div>
+            <div class="comment-detail">Oh my goodness, I love these! The little garland is my favorite! I was going to say gift tags but you’ve got that covered… how about table place setting markers?!</div>
+            <a href="#" class="reply">Reply</a>
+          </div>
+          
           <div class="comment-editor">
-            <textarea id="" class="form-control" rows="10"></textarea>
+            <textarea id="" class="form-control" rows="5"></textarea>
             <a href="#" class="btn btn-primary viewmore">Gửi</a>
           </div>
            <div class="d-flex justify-content-center"></div>

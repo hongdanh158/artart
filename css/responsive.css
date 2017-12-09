@@ -169,6 +169,9 @@
 	.project .home-video .slick-dots {
 		width: 49%;
 	}
+	.home-news > .home-text {
+		font-size: 1.6rem;
+	}
 }
 
 @media only screen and (max-width: 700px) {
@@ -187,5 +190,28 @@
 	.project .home-video .slick-dots {
 		width: 100%;
 		text-align: center;
+	}
+}
+@media only screen and (max-width: 540px) {
+	.header .top-right-menu .nav-pills .nav-link {
+	    padding: 1.5rem 1rem;
+	}
+	.carousel-control-next, .carousel-control-prev {
+		display: none;
+	}
+	.home-news .list-news .item .info .home-text {
+	    font-size: 1.3rem;
+	}
+	.home-video .info .tit {
+		font-size: 2rem;
+	}
+	.section .title {
+		font-size: 2rem;
+	}
+	.footer .register-email .title br {
+	    display: block;
+	}
+	.home-news .list-news .item .info .tit a {
+		font-size: 1.8rem;
 	}
 }

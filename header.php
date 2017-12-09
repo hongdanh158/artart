@@ -24,6 +24,10 @@
     <link rel="stylesheet" href="js/slick/slick-theme.css">
     <script src="js/slick/slick.min.js""></script>
     <!-- End slick -->
+    <!-- bxslider -->
+    <link rel="stylesheet" href="js/bx-slider/jquery.bxslider.css">
+    <script src="js/bx-slider/jquery.bxslider.min.js""></script>
+    <!-- End bxslider -->
     <script src="js/jquery.twbsPagination.min.js""></script>
 
   </head>
@@ -63,7 +67,7 @@
             <div id="cd-menu-trigger" class="js-toggle-right-slidebar js-menu-mobile">
                 <div class="trigger-menu"><span class="three-bars-icon"></span></div>
             </div>
-            <a class="navbar-brand hidden-text" href="#">
+            <a class="navbar-brand hidden-text" href="index.php">
               <img src="images/logo.jpg" alt="">
             </a>
             <div class="shopping-cart float-right">

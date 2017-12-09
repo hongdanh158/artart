@@ -1,12 +1,25 @@
 $(document).ready(function(){
     $(window).on('load resize',function(){
         resizeVideo();
+        resizeVideo2();
     });
     function resizeVideo() {
-    	var wVideo = ($(window).width()*650/1366);
-    	var hVideo = wVideo/2;
-    	$('.video-js').width(wVideo);
-    	$('.video-js').height(hVideo);
+        if ($('.slider .video').length) {
+            if ($(window).width() > 768) {
+                var wVideo = ($(window).width()*650/1366);
+                var hVideo = wVideo/2;
+                $('.video-js').width(wVideo);
+                $('.video-js').height(hVideo); 
+            }
+        }
+    }
+    function resizeVideo2() {
+        if ($('.video-modal').length) {
+            var wVideo = $('.video-modal .video-content').width();
+            var hVideo = wVideo/2;
+            $('.video-js').width(wVideo);
+            $('.video-js').height(hVideo); 
+        }
     }
 });
  video.on('ended', function () {

@@ -59,9 +59,11 @@
       </div>
     </footer>
   </div>
-  <div off-canvas="id-2 left push left-menu">
-    <div class="o-brand-mobile"></div>
-    <div class="navbar-mobile"></div>
+  <div off-canvas="id-2 left push" class="sidebar">
+    <a href="index.php" class="logo">
+      <img src="images/logo-w.png" alt="">
+    </a>
+    <div class="content"></div>
   </div>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>

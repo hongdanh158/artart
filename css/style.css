@@ -101,6 +101,9 @@ body {
   position: relative;
   background: #fff;
 }
+main.container {
+  overflow-x: hidden;
+}
 a {
   text-decoration: none;
   color: #eb5f36;
@@ -112,6 +115,12 @@ a:hover {
 a:focus, a:active {
   outline: 0;
   color: #dc3402;
+}
+strong {
+  font-family: "Helvetica Neue Bold", arial, sans-serif;
+}
+.italic {
+  font-family: "Helvetica Neue Light Italic", arial, sans-serif;
 }
 .orange-color {
   color: #eb5f36;
@@ -296,6 +305,9 @@ a:focus, a:active {
   border: none;
   padding: 0 1rem; 
 }
+.header .search button:active, .header .search button:focus {
+  outline: 0;
+}
 .header .search button:hover {
   cursor: pointer;
 }
@@ -412,7 +424,7 @@ a:focus, a:active {
   font-family: 'Helvetica Neue Bold', arial, sans-serif;
   text-transform: uppercase;
   position: relative;
-  line-height: 1.5;
+  line-height: 1.2;
 }
 .section .title:before {
   bottom: -2px;
@@ -561,6 +573,9 @@ a:focus, a:active {
   width: 1.5rem;
   height: 1.5rem;
 }
+.home-video .video {
+  padding: 0;
+}
 .home-video .video .thumbnail {
   width: 100%;
 }
@@ -609,7 +624,7 @@ a:focus, a:active {
 .hone-service .item .text {
   vertical-align: middle;
   padding-left: 5px;
-  line-height: 1.5;
+  line-height: 1.2;
   font-size: 1.4rem;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -645,7 +660,7 @@ a:focus, a:active {
   font-size:  2rem;
   font-family: "Helvetica Neue Bold", arial, sans-serif;
   color: #000;
-  line-height: 1.5;
+  line-height: 1.2;
   -webkit-transition: all .25s ease-in-out;
      -moz-transition: all .25s ease-in-out;
       -ms-transition: all .25s ease-in-out;
@@ -930,6 +945,10 @@ a:focus, a:active {
 .product-info .nav li.active a {
   background: #eb5f36;
 }
+.product-info .nav li a.active {
+  background: #eb5f36;
+}
+
 .product-images .img-slider img {
   width: 100%;
 }
@@ -1005,6 +1024,7 @@ a:focus, a:active {
   border: none;
 }
 .video-thumbnail {
+  display: block;
   position: relative;
   overflow: hidden;
 }
@@ -1085,6 +1105,9 @@ a:focus, a:active {
 }
 .product-detail .videos-slider .video:hover .card-title {
   color: #eb5f36;
+}
+.videos-container {
+  width: 100%;
 }
 .videos-container .prev, .videos-container .next {
   display: inline-block;
@@ -1310,11 +1333,13 @@ a:focus, a:active {
   *display: inline; /* Fix for IE7 */
   font-size: 2rem;
   color: #000;
-  margin: 1rem 0;
+  margin: 0 0 1rem 0;
 }
 .comment .comment-editor .form-control {
   border: 1px solid #787878;
   border-radius: 3px;
+  width: 100%;
+  max-width: 800px;
 }
 .comment .comment-editor .viewmore {
   margin-top: 2rem;
@@ -1439,4 +1464,134 @@ a:focus, a:active {
     -ms-transform: rotate(45deg);
     -o-transform: rotate(45deg);
     transform: rotate(45deg);
+}
+/*Mobile Menu*/
+[off-canvas] {
+    background-color: #eb5f36 !important;
+    box-shadow: 5px 0 5px rgba(0, 0, 0, 0.1)
+}
+.sidebar .logo {
+  display: block;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+.sidebar .logo img {
+  display: block;
+  width: 100%;
+}
+.nav-mobile li {
+    list-style: none;
+    border-bottom: 1px solid #ce532f;
+    position: relative
+}
+
+.nav-mobile li:last-child {
+    border: none
+}
+
+.nav-mobile li a {
+  display: block;
+  text-decoration: none;
+  padding: 1.3rem;
+  color: #fff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+}
+
+.nav-mobile ul li a {
+    padding-left: 30px
+}
+.nav-mobile ul li li a {
+  padding-left: 50px;
+}
+.nav-mobile ul {
+    background: #1F1F1F;
+    display: none
+}
+
+.nav-mobile i {
+    float: right;
+    margin-top: 2px
+}
+.nav-mobile li a:focus {
+    background: #ce532f;
+}
+.carousel-item img {
+  width: 100%;
+}
+.section .row {
+  margin: 0;
+}
+.product-detail .description .label {
+  font-size: 2rem;
+  color: #000;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+  font-family: "Helvetica Neue Bold", arial, sans-serif;
+}
+.product-detail .description p {
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+}
+.product-detail .tab-pane {
+  margin-bottom: 3rem;
+}
+.product-detail .gallery .item {
+  margin-bottom: 2rem;
+}
+.product-detail .gallery .item a {
+  display: block;
+}
+.product-detail .gallery .item img {
+  display: block;
+  width: 100%;
+}
+.pbWrapper > *, .pbHide .pbWrapper > .prepare {
+  border-radius: 0 !important;
+}
+.pbThumbs li.active a img {
+  border-color: #eb5f36 !important ;
+}
+.grey-color {
+  color: #666;
+}
+#videos {
+  width: 100% !important;
+}
+.modal-backdrop {
+  z-index: 0;
+}
+.modal-open .modal {
+  background: rgba(0, 0, 0, 0.5);
+}
+.modal-header .close span {
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1; /* Fix for IE7 */
+  *display: inline; /* Fix for IE7 */
+  width: 25px;
+  line-height: 22px;
+  border-radius: 1000px;
+  font-size: 1.6rem;
+  border: 1px solid #444;
+}
+.modal-header .close:active, .modal-header .close:focus {
+  outline: 0;
+}
+.modal-header .close span:hover {
+  cursor: pointer;
+}
+.video-modal .video-title {
+  font-size: 1.6rem;
+  font-family: "Helvetica Neue Bold", arial, sans-serif;
+  padding: 1rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.video-modal .modal-header {
+  padding: 1rem;
 }

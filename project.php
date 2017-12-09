@@ -4,30 +4,30 @@
         <div class="section home-video">
           <div class="video-slider">
             <div class="slider">
-              <div class="row color-grey">
-                <div class="col-lg-9 col-md-7 col-sm-6 info">
+              <div class="row color-grey d-flex flex-row-reverse">
+                <div class="col-lg-3 col-md-5 col-sm-6 video">
+                    <img src="images/ex/thumbnail-10.jpg" alt="" class="thumbnail">
+                </div>
+                <div class="col-lg-9 col-md-7 col-sm-6 info ">
                     <h3 class="tit">Giới thiệu màu nhũ mica Finetec Colors</h3>
                     <div class="home-text">
                      Giới thiệu thương hiệu FineTec - GermanyFINETEC là một doanh nghiệp dạng gia đình, chuyên nhà sản xuất màu nước dạng nhũ (Pearl Colors) chất lượng cao kể từ năm 2005, các sản phẩm đều làm hoàn toàn bằng tay và...
                     </div>
                     <a href="video-detial.php" class="btn btn-primary">Xem thêm</a>
-                </div>
-                <div class="col-lg-3 col-md-5 col-sm-6 video">
-                    <img src="images/ex/thumbnail-10.jpg" alt="" class="thumbnail">
                 </div>
               </div>
             </div>
             <div class="slider">
-              <div class="row color-grey">
+              <div class="row color-grey d-flex flex-row-reverse">
+                <div class="col-lg-3 col-md-5 col-sm-6 video">
+                    <img src="images/ex/thumbnail-9.jpg" alt="" class="thumbnail">
+                </div>
                 <div class="col-lg-9 col-md-7 col-sm-6 info">
                     <h3 class="tit">Giới thiệu màu nhũ mica Finetec Colors</h3>
                     <div class="home-text">
                      Giới thiệu thương hiệu FineTec - GermanyFINETEC là một doanh nghiệp dạng gia đình, chuyên nhà sản xuất màu nước dạng nhũ (Pearl Colors) chất lượng cao kể từ năm 2005, các sản phẩm đều làm hoàn toàn bằng tay và...
                     </div>
                     <a href="video-detial.php" class="btn btn-primary">Xem thêm</a>
-                </div>
-                <div class="col-lg-3 col-md-5 col-sm-6 video">
-                    <img src="images/ex/thumbnail-9.jpg" alt="" class="thumbnail">
                 </div>
               </div>
             </div>
