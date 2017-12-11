@@ -8,8 +8,8 @@
     <title>ArtArt Home</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="js/video/video.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/responsive.css" rel="stylesheet">
+    <link href="css/style.css?t=10" rel="stylesheet">
+    <link href="css/responsive.css?t=10" rel="stylesheet">
     <script src="js/jquery.min.js"></script>
     <!-- Video -->
     <link rel="stylesheet" href="js/video/video.css">
@@ -24,10 +24,6 @@
     <link rel="stylesheet" href="js/slick/slick-theme.css">
     <script src="js/slick/slick.min.js""></script>
     <!-- End slick -->
-    <!-- bxslider -->
-    <link rel="stylesheet" href="js/bx-slider/jquery.bxslider.css">
-    <script src="js/bx-slider/jquery.bxslider.min.js""></script>
-    <!-- End bxslider -->
     <script src="js/jquery.twbsPagination.min.js""></script>
 
   </head>
