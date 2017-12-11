@@ -17,6 +17,14 @@ $(function() {
 		// Toggle the Slidebar with id 'id-2'
 		controller.toggle( 'id-2');
 	});
+	$( controller.events ).on( 'closing', function ( event ) {
+		$('.nav-mobile li').each(function(index, el) {
+			if ($(this).hasClass('active')) {
+				$(this).removeClass('active');
+				$(this).find('ul').eq(0).slideUp(400);
+			}
+		});
+	} );
 	if ($(window).width() <= 1024) {
 		var html = '<ul class="nav-mobile">' + $('.main-nav .nav').html() + '</ul>';
 		$('.sidebar .content').html(html);
@@ -103,7 +111,16 @@ $(function () {
 	    $(".nav-mobile > li > ul > li ").click(
 	      function() {
 	        if ($(this).has("ul").length) {
-	          $(".nav-mobile > li > ul > li ul").slideDown(400);
+	        	$(this).addClass('active');
+	        	$(this).find('ul').eq(0).slideDown(400);
+	        };
+	      }
+	    );
+	    $(".nav-mobile > li > ul > li > ul >li ").click(
+	      function() {
+	        if ($(this).has("ul").length) {
+	        	$(this).addClass('active');
+	        	$(this).find('ul').eq(0).slideDown(400);
 	        };
 	      }
 	    );

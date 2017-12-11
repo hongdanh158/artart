@@ -121,6 +121,42 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Thương hiệu</a>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mua hàng</a>
+                  <ul class="dropdown-menu" aria-labelledby="dropdown02">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Action</a>
+                        <ul>
+                          <li><a href="#">Nhóm sản phẩm 1</a>
+                            <ul>
+                              <li><a href="#">Action</a></li>
+                              <li><a href="#">Action</a></li>
+                              <li><a href="#">Action</a></li>
+                              <li><a href="#">Action</a></li>
+                            </ul>
+                          </li>
+                          <li><a href="#">Nhóm sản phẩm 1</a>
+                            <ul>
+                              <li><a href="#">Action</a></li>
+                              <li><a href="#">Action</a></li>
+                              <li><a href="#">Action</a></li>
+                              <li><a href="#">Action</a></li>
+                            </ul>
+                          </li>
+                          <li><a href="#">Nhóm sản phẩm 1</a>
+                            <ul>
+                              <li><a href="#">Action</a></li>
+                              <li><a href="#">Action</a></li>
+                              <li><a href="#">Action</a></li>
+                              <li><a href="#">Action</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                    </li>
+                  </ul>
+              </li>
               </li>
                <li class="nav-item">
                 <a class="nav-link" href="#">Ứng dụng</a>

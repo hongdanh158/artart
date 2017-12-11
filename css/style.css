@@ -1542,10 +1542,11 @@ strong {
 }
 .nav-mobile li {
     list-style: none;
-    border-bottom: 1px solid #ce532f;
     position: relative
 }
-
+.nav-mobile li a {
+  border-bottom: 1px solid #ce532f;
+}
 .nav-mobile li:last-child {
     border: none
 }
@@ -1567,12 +1568,18 @@ strong {
     padding-left: 30px
 }
 .nav-mobile ul li li a {
-  padding-left: 50px;
+  padding-left: 40px;
+  background: #b93a14;
+}
+.nav-mobile ul li li li a {
+  padding-left: 60px;
+  font-family: "Helvetica Neue Light", arial, sans-serif;
+  
 }
 .nav-mobile ul {
     display: none
 }
-.nav-mobile ul li {
+.nav-mobile ul li a {
   border-bottom: 1px solid #d65630;
   background: #c14d2a;
 }
