@@ -46,6 +46,12 @@
 		width: 1rem !important;
 		height: 1rem !important;
 	}
+	.product-images .col:nth-child(1) {
+		width: 50px;
+	}
+	.product-images .img-slider {
+		width: 90px;
+	}
 }
 @media only screen and (max-width: 1280px) {
 	

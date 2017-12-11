@@ -359,14 +359,15 @@
 		    	<table class="table table-striped table-responsive-md">
 				  <thead>
 				    <tr>
-				      <th style="width: 1%;" scope="col">IMAGE</th>
-				      <th style="width: 1%;" scope="col">ITEM</th>
-				      <th style="width: 1%;" scope="col">NAME</th>
-				      <th style="width: 1%;" scope="col" class="text-center">SIZE</th>
-				      <th style="width: 1%;" scope="col" class="text-right">PRICE</th>
+				      <th scope="col">IMAGE</th>
+				      <th scope="col">ITEM</th>
+				      <th scope="col">NAME</th>
+				      <th scope="col" class="text-center">SIZE</th>
+				      <th scope="col" class="text-right">PRICE</th>
 				      <th class="text-center" style="width: 1%;" scope="col"><span class="orange-color">SALE</span></th>
-				      <th style="width: 1%;" scope="col">STATUS</th>
-				      <th style="width: 1%;" scope="col">QTY</th>
+				      <th scope="col" class="text-center">STATUS</th>
+				      <th scope="col" class="text-center">QTY</th>
+				      <th scope="col"></th>
 				    </tr>
 				  </thead>
 				  <tbody>
@@ -377,8 +378,9 @@
 				      <td class="text-center">125ml</td>
 				      <td class="text-right">200.000đ</td>
 				      <td class="text-center"><span class="orange-color">SALE</span></td>
-				      <td>in stock</td>
-				      <td><input type="number" value="1" class="form-control text-center" style="width: 80px;""></td>
+				      <td class="text-center">in stock</td>
+				      <td style="width: 1px;"><input type="number" value="1" class="form-control text-center" style="width: 80px;""></td>
+				      <td class="text-right"><a href="#" class="btn btn-primary btn-sm">Add</a></td>
 				    </tr>
 				    <tr>
 				      <td><img src="images/ex/thumbnail-8.jpg" alt="" class="image"></td>
@@ -387,8 +389,9 @@
 				      <td class="text-center">125ml</td>
 				      <td class="text-right">200.000đ</td>
 				      <td class="text-center"><span class="orange-color">SALE</span></td>
-				      <td>in stock</td>
-				      <td><input type="number" value="1" class="form-control text-center" style="width: 80px;""></td>
+				      <td class="text-center">in stock</td>
+				      <td style="width: 1px;"><input type="number" value="1" class="form-control text-center" style="width: 80px;""></td>
+				      <td class="text-right"><a href="#" class="btn btn-primary btn-sm">Add</a></td>
 				    </tr>
 				    <tr>
 				      <td><img src="images/ex/thumbnail-8.jpg" alt="" class="image"></td>
@@ -397,8 +400,9 @@
 				      <td class="text-center">125ml</td>
 				      <td class="text-right">200.000đ</td>
 				      <td class="text-center"><span class="orange-color">SALE</span></td>
-				      <td>in stock</td>
-				      <td><input type="number" value="1" class="form-control text-center" style="width: 80px;""></td>
+				      <td class="text-center">in stock</td>
+				      <td style="width: 1px;"><input type="number" value="1" class="form-control text-center" style="width: 80px;""></td>
+				      <td class="text-right"><a href="#" class="btn btn-primary btn-sm">Add</a></td>
 				    </tr>
 				    <tr>
 				      <td><img src="images/ex/thumbnail-8.jpg" alt="" class="image"></td>
@@ -407,14 +411,15 @@
 				      <td class="text-center">125ml</td>
 				      <td class="text-right">200.000đ</td>
 				      <td class="text-center"><span class="orange-color">SALE</span></td>
-				      <td>in stock</td>
-				      <td><input type="number" value="1" class="form-control text-center" style="width: 80px;""></td>
+				      <td class="text-center">in stock</td>
+				      <td style="width: 1px;"><input type="number" value="1" class="form-control text-center" style="width: 80px;""></td>
+				      <td class="text-right" style="width: 1px;"><a href="#" class="btn btn-primary btn-sm">Add</a></td>
 				    </tr>
 				  </tbody>
 				</table>
 		    </div>
 		    <div class="row d-flex flex-row-reverse">
-		    	<a href="#" class="btn btn-primary">Add to cart</a>
+		    	<a href="#" class="btn btn-primary"><i class="fas fa-plus"></i> Add to cart</a>
 		    </div>
 		    <div class="section home-products">
 		        <div class="d-flex justify-content-center"><h2 class="title">Mua hàng</h2></div>

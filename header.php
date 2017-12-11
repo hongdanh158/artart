@@ -46,8 +46,9 @@
                   <li class="nav-item active">
                     <a class="nav-link dropdown-toggle" href="#" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tài khoản</a>
                     <ul class="dropdown-menu" aria-labelledby="dropdown02">
-                       <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="login.php">Đăng nhập</a></li>
+                      <li><a class="dropdown-item" href="register.php">Đăng ký</a></li>
+                      <li><a class="dropdown-item" href="#">Thoát</a></li>
                     </ul>
                   </li>
                 </ul>
@@ -67,7 +68,7 @@
               <img src="images/logo.jpg" alt="">
             </a>
             <div class="shopping-cart float-right">
-              <a href="#">
+              <a href="cart.php">
                 <img src="images/icon-shopping-cart.png" alt="">
                 <span class="badge badge-light">4</span>
               </a>
