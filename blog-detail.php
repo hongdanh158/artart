@@ -76,7 +76,6 @@
             <div class="comment-detail">Oh my goodness, I love these! The little garland is my favorite! I was going to say gift tags but you’ve got that covered… how about table place setting markers?!</div>
             <a href="#" class="reply">Reply</a>
           </div>
-          
           <div class="comment-editor">
             <textarea id="" class="form-control" rows="5"></textarea>
             <a href="#" class="btn btn-primary viewmore">Gửi</a>

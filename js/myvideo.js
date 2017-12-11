@@ -8,7 +8,7 @@ $(document).ready(function(){
     function resizeVideo() {
         if ($('.slider .video').length) {
             if ($(window).width() > 768) {
-                var wVideo = ($(window).width()*650/1366);
+                var wVideo = ($('window').width()*650/1366);
                 var hVideo = wVideo/2;
                 $('.video-js').width(wVideo);
                 $('.video-js').height(hVideo); 

@@ -41,7 +41,7 @@
                <div class="input-group">
                 <input type="text" class="form-control" placeholder="Your email..." aria-label="Your email...">
                 <span class="input-group-btn">
-                  <button class="btn btn-secondary" type="button">Đăng ký</button>
+                  <button class="btn btn-primary" type="button">Đăng ký</button>
                 </span>
               </div>
             </div>

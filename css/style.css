@@ -1763,3 +1763,13 @@ select.form-control:not([size]):not([multiple]) {
 .cart-detail table .image {
   max-width: 70px;
 }
+.checkout .note {
+  padding: 1rem;
+}
+.checkout .login {
+  text-align: center;
+  margin: 0 auto;
+}
+.checkout .login .note {
+  text-align: center;
+}
