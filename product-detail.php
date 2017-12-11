@@ -286,6 +286,16 @@
 		                    });
 		                  </script>
 		                  <script src="js/myvideo.js""></script>
+		                  <script>
+		                  	$('.video-modal').on('shown.bs.modal', function () {
+							  var wVideo = $('.video-js').width();
+					            var hVideo = wVideo/2;
+					            $('.video-js').height(hVideo); 
+							});
+							$('.video-modal').on('hide.bs.modal', function () {
+							  video.pause();
+							})
+		                  </script>
 				        <h3 class="video-title">Tên video tại đây</h3>
 				      </div>
 				    </div>

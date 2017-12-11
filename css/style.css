@@ -1728,3 +1728,9 @@ strong {
   background: #eb5f36;
   color: #fff;
 }
+.video-js {
+  width: 100% !important;
+}
+.vjs-default-skin .vjs-play-progress {
+    background: #eb5f36 !important;
+}

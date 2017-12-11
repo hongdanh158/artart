@@ -1,4 +1,6 @@
 $(document).ready(function(){
+    resizeVideo2();
+    resizeVideo();
     $(window).on('load resize',function(){
         resizeVideo();
         resizeVideo2();
@@ -15,9 +17,8 @@ $(document).ready(function(){
     }
     function resizeVideo2() {
         if ($('.video-modal').length) {
-            var wVideo = $('.video-modal .video-content').width();
+            var wVideo = $('.video-js').width();
             var hVideo = wVideo/2;
-            $('.video-js').width(wVideo);
             $('.video-js').height(hVideo); 
         }
     }
