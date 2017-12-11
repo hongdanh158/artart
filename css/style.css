@@ -206,12 +206,28 @@ strong {
    color: #000;
    font-family: "Helvetica Neue Light", arial, sans-serif;
 }
+.dropdown-toggle::after {
+  display: inline-block;
+  width: 14px;
+  height: 8px;
+  margin-left: 1rem;
+  vertical-align: .07rem;
+  content: "";
+  background-image: url(../images/icon.png);
+  background-repeat: no-repeat;
+  background-position:  -110px 0;
+  border: 0 !important;
+}
 /*header*/
 .header {
   margin-bottom: 3rem;
 }
 .header .top-menu {
   background: #eb5f36;
+  margin-right: -3rem;
+}
+.header .top-menu .dropdown-toggle::after {
+  background-image: url(../images/icon-w.png);
 }
 .header .top-menu .promotion {
   padding: 1.2rem 0;
@@ -237,7 +253,8 @@ strong {
   position: relative;
 }
 .header .top-right-menu .dropdown-menu {
-    left: -40%;
+  width: 166px; 
+  left: -63%;
 }
 .header .main-nav {
   background-color: rgb(255, 255, 255);
@@ -278,18 +295,22 @@ strong {
 .header .main-nav .nav > li:last-child > a {
   border-right: none;
 }
-.header .main-nav .dropdown .dropdown-toggle::after {
-  display: inline-block;
-  width: 14px;
-  height: 8px;
-  margin-left: 1rem;
-  vertical-align: .07rem;
-  content: "";
-  background-image: url(../images/icon.png);
-  background-repeat: no-repeat;
-  background-position:  -110px 0;
-  border: 0 !important;
-} 
+.dropdown-menu .dropdown-item.hassub a {
+  position: relative;
+}
+.dropdown-menu .dropdown-item.hassub:after {
+    content: '';
+    top: 0.9rem;
+    right: 5px;
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    background-image: url(../images/icon.png);
+    background-position: -70px 0;
+}
+.dropdown-menu li:hover .dropdown-item.hassub:after {
+    background-image: url(../images/icon-w.png);
+}
 .header .search {
   position: relative;
   margin-top: 1rem;
@@ -1414,8 +1435,6 @@ strong {
   display: block;
   font-size: 2.5rem;
 }
-
-
 .js-menu-mobile {
   display: none;
     background-color: transparent;
@@ -1650,7 +1669,7 @@ strong {
   position: absolute;
   width: 23px;
   height: 23px;
-  background-image: url(../images/icon.png);
+  background-image: url(../images/icon-w.png);
   background-position: -70px 0;
 }
 .nav-mobile li.active > a:before {

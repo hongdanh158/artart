@@ -36,7 +36,7 @@
 	}
 	.header .main-nav .nav > li a  {
 		font-size: 1.6rem;
-		padding: 0.5rem 1rem;
+		padding: 1rem 1rem;
 	}
 	.slick-dots li {
 		width: 1rem !important;
@@ -105,15 +105,22 @@
 		display: none;
 	}
 	.header .top-right-menu {
-		margin-right: 4rem;
+		margin-right: -3rem;
 	}
 	.header .shopping-cart {
+		width: 6.6rem;
 		position: absolute;
-		top: 0;
-		right: 5px;
+		top: 41px;
+		right: 0;
 	}
 	.header .shopping-cart a {
-	    padding: 0.65rem 1rem;
+	    padding: 1.4rem 1rem;
+	    line-height: 0;
+	}
+	.header .shopping-cart .badge {
+		font-size: 1.6rem;
+	    top: 3px;
+	    right: 3px;
 	}
 	.header .top-right-menu .nav-item {
 		margin-left: 0;
@@ -213,5 +220,13 @@
 	}
 	.home-news .list-news .item .info .tit a {
 		font-size: 1.8rem;
+	}
+}
+@media only screen and (max-width: 360px) {
+	.header .top-right-menu .nav-pills .nav-link {
+	    font-size: 1.6rem;
+	}
+	.header .top-right-menu .dropdown-menu {
+	  left: -102%;
 	}
 }

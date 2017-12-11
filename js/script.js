@@ -38,7 +38,7 @@ $(function() {
 });
 
 $(function () {
-	$('.header .dropdown-menu li:has(ul) > a').append('<i class="fas fa-angle-right"></i>');
+	$('.nav .dropdown-menu li:has(ul) > a').addClass('hassub');
 	if ($('.left-menu').length) {
 	    $(".left-menu ul li").each(function(){
 	      if ($(this).has("ul").length) {
