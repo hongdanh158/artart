@@ -125,4 +125,27 @@ $(function () {
 	      }
 	    );
 	}
+	$('#reviews .rate span').click(function(event) {
+   		var index = $(this).attr('index');
+   		$('#reviews .rate span').each(function(index, el) {
+   			$(this).removeClass('active');
+   		});
+   		for (var i = 1; i <= index; i++) {
+   			$('#reviews .rate').find('span').eq(i).addClass('active')
+   		}
+   		$('.rateinput').val(index);
+   	});
+	$('#reviews .rate span').hover(function() {
+		var index = $(this).attr('index');
+   		$('#reviews .rate span').each(function(index, el) {
+   			$(this).removeClass('hover');
+   		});
+   		for (var i = 1; i <= index; i++) {
+   			$('#reviews .rate').find('span').eq(i).addClass('hover')
+   		}
+	}, function() {
+		$('#reviews .rate span').each(function(index, el) {
+   			$(this).removeClass('hover');
+   		});
+	});
 })

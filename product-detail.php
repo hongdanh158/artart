@@ -344,12 +344,13 @@
 				        <div class="comment-editor">
 				            <textarea id="" class="form-control" rows="5"></textarea> <br>
 				            <div class="rate grey-color"> <span class="italic scores">Đánh giá</span>
-			                    <i class="fa fa-star"></i>
-			                    <i class="fa fa-star"></i>
-			                    <i class="fa fa-star"></i>
-			                    <i class="fa fa-star"></i>
-			                    <i class="far fa-star"></i>
+			                	<span index="1"><i class="fa fa-star"></i></span>
+			                    <span index="2"><i class="fa fa-star"></i></span>
+			                    <span index="3"><i class="fa fa-star"></i></span>
+			                    <span index="4"><i class="fa fa-star"></i></span>
+			                    <span index="5"><i class="fa fa-star"></i></span>
 			                  </div>
+			                 <input type="hidden" name="rate" class="rateinput">
 				            <a href="#" class="btn btn-primary viewmore">Gửi</a>
 				        </div>
 			        </div>

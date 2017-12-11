@@ -1773,3 +1773,12 @@ select.form-control:not([size]):not([multiple]) {
 .checkout .login .note {
   text-align: center;
 }
+#reviews .rate span.active .fa-star {
+  color: #eb5f36;
+}
+#reviews .rate span.hover .fa-star {
+  color: #eb5f36;
+}
+#reviews .rate .fa-star:hover {
+  cursor: pointer;
+}
