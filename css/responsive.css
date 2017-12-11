@@ -9,7 +9,7 @@
 		margin-top: 1.2rem;
 	}
 	.header .main-nav .nav {
-	    margin-top: 1.7rem;
+	    margin-top: 2rem;
 	}
 	.header .shopping-cart a {
 		padding: 1.1rem 1rem;
@@ -34,9 +34,9 @@
 	.footer .title {
 	  font-size: 2rem;
 	}
-	.header .main-nav .nav > li a  {
+	.header .main-nav .nav li li a  {
 		font-size: 1.6rem;
-		padding: 1rem 1rem;
+		padding: 1.2rem 1.2rem;
 	}
 	.slick-dots li {
 		width: 1rem !important;

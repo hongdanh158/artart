@@ -79,13 +79,13 @@
               </span>
             </div>
             <ul class="nav nav-pills float-right">
-              <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mua hàng</a>
-                  <ul class="dropdown-menu" aria-labelledby="dropdown01">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Action</a>
+              <li>
+                  <a href="#">Mua hàng</a>
+                  <ul>
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Action</a>
                         <ul>
                           <li><a href="#">Nhóm sản phẩm 1</a>
                             <ul>
@@ -115,54 +115,18 @@
                     </li>
                   </ul>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Thương hiệu</a>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mua hàng</a>
-                  <ul class="dropdown-menu" aria-labelledby="dropdown02">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Action</a>
-                        <ul>
-                          <li><a href="#">Nhóm sản phẩm 1</a>
-                            <ul>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                            </ul>
-                          </li>
-                          <li><a href="#">Nhóm sản phẩm 1</a>
-                            <ul>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                            </ul>
-                          </li>
-                          <li><a href="#">Nhóm sản phẩm 1</a>
-                            <ul>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                            </ul>
-                          </li>
-                        </ul>
-                    </li>
-                  </ul>
+              <li>
+                <a href="#">Thương hiệu</a>
+              </li>
+               <li>
+                <a href="#">Ứng dụng</a>
+              </li>
+               <li>
+                <a href="#">Kiến thức</a>
               </li>
               </li>
-               <li class="nav-item">
-                <a class="nav-link" href="#">Ứng dụng</a>
-              </li>
-               <li class="nav-item">
-                <a class="nav-link" href="#">Kiến thức</a>
-              </li>
-              </li>
-               <li class="nav-item">
-                <a class="nav-link" href="#">Blog</a>
+               <li>
+                <a href="#">Blog</a>
               </li>
             </ul>
         </div>

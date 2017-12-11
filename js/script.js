@@ -46,7 +46,7 @@ $(function() {
 });
 
 $(function () {
-	$('.nav .dropdown-menu li:has(ul) > a').addClass('hassub');
+	$('.nav li:has(ul) > a').addClass('hassub');
 	if ($('.left-menu').length) {
 	    $(".left-menu ul li").each(function(){
 	      if ($(this).has("ul").length) {

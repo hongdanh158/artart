@@ -276,6 +276,7 @@ strong {
   margin-top: 1.8rem;
 }
 .header .main-nav .nav > li {
+  position: relative;
 }
 .header .main-nav .nav > li > a {
   color: #000;
@@ -367,36 +368,44 @@ strong {
 .carousel-control-next-icon {
     background-image: url("../images/arr.png");
 }
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+.nav-pills li.active, .nav-pills .show >.nav-link {
   background: none;
   color: #eb5f36;
 }
 .header .nav li:hover > ul {
   display: block;
 }
-.header .dropdown-menu {
+.header .nav ul {
+  display: none;
   border:  none;
-  box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+  position: absolute;
+  z-index: 9999;
+  top: 100%;
+  left: 0;
+  width: 220px;
+  background: #e8e8e8;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15) 
 }
-.header .dropdown-menu li {
+.header .nav ul li {
   position: relative;
+  display: block;
 }
-.header .dropdown-menu > li:hover > a {
+.header .main-nav .nav > li > a {
+  padding: 0.5rem 1rem;
+}
+.header .main-nav .nav li li a {
+  display: block;
+  padding: 1.3rem;
+  width: 100%;
+  color: #000;
+}
+.header .nav ul > li:hover > a {
   color: #fff;
   background: #eb5f36;
 }
-.header .dropdown-menu .dropdown-menu {
+.header .nav ul ul {
   top: 0;
   left: 100%;
-}
-.header .dropdown-menu .megamenu {
-  visibility: hidden;
-  padding: 0 12px;
-  position: absolute;
-  top: 0;
-  left: 100%;
-  background: #e8e8e8;
-  box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
 }
 .header .nav > ul > li {
   font-family: "Helvetica Neue Bold", arial, sans-serif;
@@ -421,15 +430,8 @@ strong {
        -o-transition: all .25s ease-in-out;
           transition: all .25s ease-in-out;
 }
-.header .nav ul ul ul li a:hover {
-  color: #eb5f36;
-}
-.dropdown-menu li:hover ul {
+.header .nav ul li:hover ul {
   visibility: visible
-}
-.header .dropdown-menu li .fa-angle-right {
-  float: right;
-  margin-top: 3px;
 }
 .header .nav ul ul {
   visibility: hidden;
@@ -449,9 +451,6 @@ strong {
   *display: inline; /* Fix for IE7 */
   background: #e8e8e8;
 }
-.header .nav ul li .fa-angle-right {
-  display: none;
-}
 
 .header .nav ul ul li > a {
  padding: 10px;
@@ -467,10 +466,53 @@ strong {
 .header .nav ul ul ul li {
   width: 100%;
 }
+
 .header .nav ul ul ul li a {
   padding: 1rem 1.5rem;
   font-family: "Helvetica Neue", arial, sans-serif;
-}  
+} 
+.header .nav ul ul li:hover a {
+  background: none;
+  color: #000;
+}
+.header .nav ul ul li:hover a.hassub:before {
+  background-image: none;
+  display: none;
+}
+.header .nav ul ul ul li:hover a {
+  background: none;
+  color: #eb5f36;
+}
+.header .main-nav .nav li a.hassub {
+  position: relative;
+  padding-right: 25px !important
+}
+.header .main-nav .nav > li > a.hassub:before {
+  content: '';
+  top: 8px;
+  right: 5px;
+  position: absolute;
+  width: 14px;
+  height: 8px;
+  background-image: url(../images/icon.png);
+  background-position: -110px 0;
+}
+.header .main-nav .nav ul li a.hassub:before {
+  content: '';
+  top: 0.9rem;
+  right: 5px;
+  position: absolute;
+  width: 23px;
+  height: 23px;
+  background-image: url(../images/icon.png);
+  background-position: -70px 0;
+}
+.header .main-nav .nav ul > li:hover > a.hassub:before {
+  background-image: url(../images/icon-w.png);
+}
+.header .main-nav .nav ul li li a.hassub:before {
+  background: none;
+}
 /*End header*/
 .home-news {
   text-align: center;
