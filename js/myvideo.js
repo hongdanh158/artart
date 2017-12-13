@@ -38,6 +38,9 @@ video.on('play', function () {
     this.posterImage.hide();
     this.bigPlayButton.hide();
 });
+$('.vjs-big-play-button').click(function(event) {
+    $(this).closest('.video-js').find('.vjs-poster').eq(0).css('display', 'none');
+});
 var trackerObj = {};
 
 var ebVideoStarted = "http://log.adtimaserver.vn/track/hit.gif?params=x20mlbps7s_F0hL5OGffeLi3rsq5MqzhxHEuRj1HB-RtZyaGVxuln-lIoeRvXqGWsKwE20OTQhsFDa7KPz4TJ7ClRUNHRkUE_nAupf1HIGHDT4A9nv-lc8oXbFPFM1OAwW4DgMRBYh2_xS1TUbCOA4AP4dZX71WPW-RxYYpSqZI72h0ZXRFqaS4&uid=";
