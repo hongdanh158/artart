@@ -26,6 +26,9 @@
     <!-- End slick -->
     <script src="js/jquery.twbsPagination.min.js""></script>
 
+    <link rel="stylesheet" type="text/css" media="screen" href="js/potato-menu/jquery.ui.potato.menu.css"/>
+    <script type="text/javascript" src="js/potato-menu/jquery.ui.potato.menu.js"></script>
+
   </head>
   <body>
 <div class="body" canvas="container">

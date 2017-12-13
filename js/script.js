@@ -3,7 +3,6 @@ $(function() {
 	var controller = new slidebars();
 	controller.init();
 	$( '.trigger-menu' ).on( 'click', function ( event ) {
-
 		if ($('.three-bars-icon').hasClass('close')) {
 			$('.three-bars-icon').removeClass('close');
 		}
