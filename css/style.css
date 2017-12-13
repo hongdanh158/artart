@@ -119,6 +119,7 @@ a:focus, a:active {
 strong {
   font-family: "Helvetica Neue Bold", arial, sans-serif;
 }
+
 .italic {
   font-family: "Helvetica Neue Light Italic", arial, sans-serif;
 }
@@ -319,7 +320,7 @@ button:hover {
 }
 .header .search {
   position: relative;
-  margin-top: 1rem;
+  margin-top: 0.6rem;
   box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.14);
   width: 300px;
   float: right; 
@@ -1781,4 +1782,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 #reviews .rate .fa-star:hover {
   cursor: pointer;
+}
+.header .search form {
+  display: flex;
 }

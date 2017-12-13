@@ -74,10 +74,12 @@
               </a>
             </div>
             <div class="input-group search">
+              <form action="">
               <input type="text" class="form-control"  placeholder="Tìm kiếm sản phẩm..." aria-label="Tìm kiếm sản phẩm...">
               <span class="input-group-btn">
                 <button type="button"><img src=" images/icon-search.png" alt=""></button>
               </span>
+              </form>
             </div>
             <ul class="nav nav-pills float-right">
               <li>
