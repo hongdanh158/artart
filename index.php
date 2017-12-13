@@ -344,8 +344,8 @@
             adaptiveHeight: true,
             fade: true,
         });
-        $('.slider').on('afterChange', function(event, slick, currentSlide){
-            // $(this).find('.slider-product').eq()
+        $('.video-slider').on('afterChange', function(event, slick, currentSlide){
+            video.pause();
         });
     });
   </script>
