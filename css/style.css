@@ -265,6 +265,7 @@ button:hover {
 .header .main-nav {
   background-color: rgb(255, 255, 255);
   box-shadow: 0px 0px 0.5rem 0px rgba(0, 1, 1, 0.17);
+  position: relative;
 }
 .header .main-nav .navbar-brand {
   width: 28.7rem;
@@ -280,9 +281,6 @@ button:hover {
 }
 .header .main-nav .nav {
   margin-top: 1.8rem;
-}
-.header .main-nav .nav > li {
-  position: relative;
 }
 .header .main-nav .nav > li > a {
   color: #000;
@@ -366,7 +364,6 @@ button:hover {
 .carousel-control-next-icon, .carousel-control-prev-icon {
   width: 34px;
   height: 64px;
-    
 }
 .carousel-control-prev-icon {
     background-image: url("../images/arl.png");
@@ -374,124 +371,11 @@ button:hover {
 .carousel-control-next-icon {
     background-image: url("../images/arr.png");
 }
-.nav-pills li.active, .nav-pills .show >.nav-link {
-  background: none;
-  color: #eb5f36;
-}
-.header .nav li:hover > ul {
-  display: block;
-}
-.header .nav ul {
-  display: none;
-  border:  none;
-  position: absolute;
-  z-index: 9999;
-  top: 100%;
-  left: 0;
-  width: 220px;
-  background: #e8e8e8;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15) 
-}
-.header .nav ul li {
-  position: relative;
-  display: block;
-}
 .header .main-nav .nav > li > a {
-  padding: 0.5rem 1rem;
-}
-.header .main-nav .nav li li a {
-  display: block;
-  padding: 1.3rem;
-  width: 100%;
-  color: #000;
-}
-.header .nav ul > li:hover > a {
-  color: #fff;
-  background: #eb5f36;
-}
-.header .nav ul ul {
-  top: 0;
-  left: 100%;
-}
-.header .nav > ul > li {
-  font-family: "Helvetica Neue Bold", arial, sans-serif;
-  font-size: 1.6rem;
-  white-space: nowrap;
-}
-.header .nav ul ul li a {
-  color: #000;
-}
-.header .nav ul ul li i {
-  display: none;
-}
-.header .nav ul ul li a {
-  color: #000;
-  display: block;
-  font-size: 1.6rem;
-  padding: 12px 0;
-  white-space: nowrap;
-  -webkit-transition: all .25s ease-in-out;
-     -moz-transition: all .25s ease-in-out;
-      -ms-transition: all .25s ease-in-out;
-       -o-transition: all .25s ease-in-out;
-          transition: all .25s ease-in-out;
-}
-.header .nav ul li:hover ul {
-  visibility: visible
-}
-.header .nav ul ul {
-  visibility: hidden;
-  position: absolute;
-  left: 100%;
-  top: -100%;
-  display: flex !important  ;
-  justify-content: space-between !important  ;
-}
-.header .nav li li:hover ul {
-  visibility: visible;
-}
-.header .nav ul ul li {
-  display: inline-block;
-  vertical-align: top;
-  zoom: 1; /* Fix for IE7 */
-  *display: inline; /* Fix for IE7 */
-  background: #e8e8e8;
-}
-
-.header .nav ul ul li > a {
- padding: 10px;
- font-family: "Helvetica Neue Bold", arial, sans-serif;
-}
-.header .nav ul ul ul {
-  width: 100%;  
-  left: 0;
-  top: 100%;
-  display: flex!important;
-  flex-direction: column!important;
-}
-.header .nav ul ul ul li {
-  width: 100%;
-}
-
-.header .nav ul ul ul li a {
-  padding: 1rem 1.5rem;
-  font-family: "Helvetica Neue", arial, sans-serif;
-} 
-.header .nav ul ul li:hover a {
-  background: none;
-  color: #000;
-}
-.header .nav ul ul li:hover a.hassub:before {
-  background-image: none;
-  display: none;
-}
-.header .nav ul ul ul li:hover a {
-  background: none;
-  color: #eb5f36;
-}
-.header .main-nav .nav li a.hassub {
   position: relative;
-  padding-right: 25px !important
+}
+.header .main-nav .nav > li > a.hassub {
+  padding-right: 20px;
 }
 .header .main-nav .nav > li > a.hassub:before {
   content: '';
@@ -503,21 +387,123 @@ button:hover {
   background-image: url(../images/icon.png);
   background-position: -110px 0;
 }
-.header .main-nav .nav ul li a.hassub:before {
-  content: '';
-  top: 0.9rem;
-  right: 5px;
-  position: absolute;
-  width: 23px;
-  height: 23px;
-  background-image: url(../images/icon.png);
-  background-position: -70px 0;
+.header .main-nav .nav > li > ul > li > ul > li > a.hassub {
+  position: relative;
 }
-.header .main-nav .nav ul > li:hover > a.hassub:before {
+.header .main-nav .nav > li > ul > li > ul > li > a.hassub:before {
+  content: '';
+    top: 3px;
+    right: 5px;
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    background-image: url(../images/icon.png);
+    background-position: -70px 0;
+}
+.header .main-nav .nav > li > ul {
+  position: absolute;
+  width: 100%;
+  z-index: 9999;
+  left: 0;
+  top: 110%;
+  background: rgba(214, 214, 214, 0.9);
+  display: flex;
+  justify-content: center;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+  visibility: hidden;
+  -webkit-transition: all .25s ease-in;
+     -moz-transition: all .25s ease-in;
+      -ms-transition: all .25s ease-in;
+       -o-transition: all .25s ease-in;
+          transition: all .25s ease-in;
+}
+.header .main-nav .nav > li:hover > ul {
+  visibility: visible;
+  top: 100%;
+}
+.header .main-nav .nav > li > ul > li {
+  min-width: 180px;
+  padding: 10px 0;
+  position: relative;
+}
+.header .main-nav .nav > li > ul > li > a {
+  text-transform: uppercase;
+  font-family: "Helvetica Neue Bold", arial, sans-serif;
+  color: #eb5f36;
+  position: relative;
+}
+.header .main-nav .nav > li > ul > li > ul > li a {
+  color: #000;
+}
+.header .main-nav .nav > li > ul > li > ul > li:hover > a {
+  background: #eb5f36;
+  color: #ffff;
+}
+.header .main-nav .nav > li > ul > li > ul > li:hover > a.hassub:before {
   background-image: url(../images/icon-w.png);
 }
-.header .main-nav .nav ul li li a.hassub:before {
-  background: none;
+.header .main-nav .nav ul li a {
+  display: block;
+  padding: 8px 10px;  
+}
+.header .main-nav .nav > li > ul > li > ul > li > ul  {
+  visibility: hidden;
+  position: absolute;
+  width: 100%;
+  height: calc(100% - 38px);
+  top: 38px;
+  left: 110%;
+  background: #fff;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+  -webkit-transition: all .25s ease-in;
+     -moz-transition: all .25s ease-in;
+      -ms-transition: all .25s ease-in;
+       -o-transition: all .25s ease-in;
+          transition: all .25s ease-in;
+}
+.header .main-nav .nav > li > ul > li > ul > li:hover > ul {
+  visibility: visible;
+  left: 100%;
+}
+.header .main-nav .nav > li > ul > li > ul > li > a.hassub:after {
+  content: "";
+  position: absolute;
+  border: 6px solid transparent;
+  border-right: 6px solid #fff;
+  top: 7px;
+  right: -10%;
+  z-index: 99999;
+  opacity: 0;
+  -webkit-transition: all .25s ease-in;
+     -moz-transition: all .25s ease-in;
+      -ms-transition: all .25s ease-in;
+       -o-transition: all .25s ease-in;
+          transition: all .25s ease-in;
+}
+.header .main-nav .nav > li > ul > li > ul > li:hover > a.hassub:after{
+  right: 0;
+  opacity: 1;
+}
+.header .main-nav .nav > li > ul > li > ul > li > ul > li:hover a {
+  color: #eb5f36;
+}
+
+.header .main-nav .nav > li > ul > li:nth-child(6n) > ul > li > ul  {
+  left: -110% !important;
+  box-shadow: -5px -5px 5px rgba(0, 0, 0, 0.1) !important;
+}
+.header .main-nav .nav > li > ul > li:nth-child(6n) > ul > li:hover > ul {
+  visibility: visible;
+  left: -100% !important;
+}
+.header .main-nav .nav > li > ul > li:nth-child(6n) > ul > li > a.hassub:after {
+  left: -10% !important;
+  border-right: 0;
+  border-left: 6px solid #fff;
+}
+.header .main-nav .nav > li > ul > li:nth-child(6n) > ul > li:hover > a.hassub:after{
+  left: 0 !important;
 }
 /*End header*/
 .home-news {
