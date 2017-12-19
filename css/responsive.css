@@ -116,11 +116,11 @@
 	.header .shopping-cart {
 		width: 6.6rem;
 		position: absolute;
-		top: 41px;
+		top: 0;
 		right: 0;
 	}
 	.header .shopping-cart a {
-	    padding: 1.4rem 1rem;
+	    padding: 1.1rem 1rem;
 	    line-height: 0;
 	}
 	.header .shopping-cart .badge {
@@ -140,6 +140,9 @@
 		width: 100%;
 		box-shadow: 0 3px 3px 0px rgba(0, 0, 0, 0.1);
 		border-top: 1px solid #e8e8e8;
+	}
+	.header .search form {
+		width: 100%;
 	}
 	.header .search .form-control {
 		padding: 1rem;
