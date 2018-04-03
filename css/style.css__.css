@@ -95,14 +95,11 @@ input,select{vertical-align:middle}
 
 html { font-size: 62.5%; /* Mac dinh ve gia tri 10px */ }
 body {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
   color:#000;
   position: relative;
   background: #fff;
-}
-.body {
-  overflow-x: hidden;
 }
 main.container {
   overflow-x: hidden;
@@ -122,7 +119,9 @@ a:focus, a:active {
 strong {
   font-family: "Helvetica Neue Bold", arial, sans-serif;
 }
-
+.body {
+  overflow-x: hidden;
+}
 .italic {
   font-family: "Helvetica Neue Light Italic", arial, sans-serif;
 }
@@ -135,23 +134,16 @@ strong {
 }
 .container {
   width: 100%;
-  max-width: 1170px;
+  max-width: 1700px;
 }
 .dropdown-menu {
   width: 200px;
-  background: #fff;
-  box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+  background: #e8e8e8;
   border-radius: 0;
 }
 .dropdown-item {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   padding: 12px;
-}
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link, .dropdown-item.active, .dropdown-item:active {
-  background-color: #bb3f1b;
-}
-.table td, .table th {
-  padding: 1rem;
 }
 .shopping-cart .badge {
 
@@ -173,8 +165,8 @@ strong {
 }
 .form-control {
   border-radius: 0;
-  font-size: 1.4rem;
-  line-height: 2.5rem;
+  font-size: 1.6rem;
+  line-height: 3.5rem;
 }
 .form-control:focus {
   color: #495057;
@@ -190,7 +182,7 @@ button:hover {
   cursor: pointer;
 }
 .btn {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
 }
 .btn.btn-primary {
     border: 1px solid transparent;
@@ -227,7 +219,7 @@ button:hover {
   display: inline-block;
   width: 14px;
   height: 8px;
-  margin-left: 0.5rem;
+  margin-left: 1rem;
   vertical-align: .07rem;
   content: "";
   background-image: url(../images/icon.png);
@@ -247,7 +239,7 @@ button:hover {
 }
 .header .top-menu .promotion {
   padding: 1.2rem 0;
-  padding-left: 1.5rem;
+  text-align: center;
 }
 .header .top-menu .promotion a {
   display: inline-block;
@@ -255,21 +247,21 @@ button:hover {
   zoom: 1; /* Fix for IE7 */
   *display: inline; /* Fix for IE7 */
   color: #fff;
-  font-size: 1.6rem;
+  font-size: 3rem;
   text-align: center;
   text-transform: uppercase;
 }
 .header .top-right-menu .nav-pills .nav-link {
   color: #fff;
   text-decoration: underline;
-  font-size: 1.4rem;
+  font-size: 2.2rem;
 }
 .header .top-right-menu .nav-item {
-  margin-left: 1.5rem;
+  margin-left: 2rem;
   position: relative;
 }
 .header .top-right-menu .dropdown-menu {
-  width: 166px;
+  width: 166px; 
   left: -63%;
 }
 .header .main-nav {
@@ -278,30 +270,25 @@ button:hover {
   position: relative;
 }
 .header .main-nav .navbar-brand {
-  width: 20.5rem;
+  width: 28.7rem;
   display: inline-block;
   vertical-align: top;
   zoom: 1; /* Fix for IE7 */
   *display: inline; /* Fix for IE7 */
   color: transparent;
-  padding: 1rem 0;
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
 }
 .header .main-nav .navbar-brand img {
   width: 100%;
   display: block;
 }
 .header .main-nav .nav {
-  margin-top: 2.1rem;
+  margin-top: 1.8rem;
 }
 .header .main-nav .nav > li > a {
   color: #000;
-  position: relative;
   text-transform: uppercase;
   border-right: 1px solid #000;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 2rem;
   border-radius: 0;
   -webkit-transition: all .25s ease-in-out;
      -moz-transition: all .25s ease-in-out;
@@ -333,10 +320,10 @@ button:hover {
 }
 .header .search {
   position: relative;
-  margin-top: 1rem;
+  margin-top: 0.6rem;
   box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.14);
   width: 300px;
-  float: right;
+  float: right; 
 }
 .header .search .form-control {
   border: none;
@@ -344,7 +331,7 @@ button:hover {
 .header .search button {
   background: transparent;
   border: none;
-  padding: 0 1rem;
+  padding: 0.7rem 1rem; 
 }
 .header .search button:active, .header .search button:focus {
   outline: 0;
@@ -362,7 +349,7 @@ button:hover {
   background-color: #eb5f36;
   padding: 7px 1rem 0 1rem;
   text-align: center;
-  line-height: 31px;
+  line-height: 40px;
 }
 .header .shopping-cart a img {
   width: 100%;
@@ -385,6 +372,9 @@ button:hover {
 }
 .carousel-control-next-icon {
     background-image: url("../images/arr.png");
+}
+.header .main-nav .nav > li > a {
+  position: relative;
 }
 .header .main-nav .nav > li > a.hassub {
   padding-right: 20px;
@@ -456,7 +446,7 @@ button:hover {
 }
 .header .main-nav .nav ul li a {
   display: block;
-  padding: 8px 10px;
+  padding: 8px 10px;  
 }
 .header .main-nav .nav > li > ul > li > ul > li > ul  {
   visibility: hidden;
@@ -527,9 +517,9 @@ button:hover {
   vertical-align: top;
   zoom: 1; /* Fix for IE7 */
   *display: inline; /* Fix for IE7 */
-  font-size: 2.2rem;
+  font-size: 2.5rem;
   padding: 1.5rem 0;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   font-family: 'Helvetica Neue Bold', arial, sans-serif;
   text-transform: uppercase;
   position: relative;
@@ -548,7 +538,7 @@ button:hover {
   width: 110%;
 }
 .section .title a {
-  font-size: 1.6rem;
+  font-size: 3rem;
   display: block;
   color: #000;
   -webkit-transition: all .25s ease-in-out;
@@ -561,10 +551,10 @@ button:hover {
   color: #eb5f36;
 }
 .home-news > .home-text {
-  font-size: 1.6rem;
+  font-size: 3rem;
   line-height: 1.2;
   width: 100%;
-  max-width: 600px;
+  max-width: 1070px;
   margin: 0 auto;
   text-align: center;
   margin-bottom: 2rem;
@@ -603,11 +593,8 @@ button:hover {
   width: calc(100% - 30px;);
   padding: 10px;
   background: rgba(0, 0, 0, 0.5);
-  color: #fff;
+  columns: #fff;
   text-align: left;
-}
-.home-news .list-news .item .info .tit {
-  margin-bottom: 0.5rem;
 }
 .home-news .list-news .item .info .tit a {
   font-family: "Helvetica Neue Bold", arial, sans-serif;
@@ -626,7 +613,7 @@ button:hover {
 }
 .home-news .list-news .item .info .home-text {
   font-family: "Arimo", arial, sans-serif;
-  font-size: 1.4rem;
+  font-size: 2rem;
   color: #fff;
   line-height: 1.2;
 }
@@ -640,14 +627,14 @@ button:hover {
 }
 .home-video .info {
   font-family: "Arimo", arial, sans-serif;
-  font-size:  1.4rem;
+  font-size:  2rem;
   line-height: 1.2;
   text-align: left;
   padding: 3rem;
 }
 .home-video .info .tit {
   font-family: "Helvetica Neue Bold", arial, sans-serif;
-  font-size: 2.4rem;
+  font-size: 3rem;
   margin-bottom: 2rem;
 }
 .home-video .info .home-text {
@@ -691,9 +678,6 @@ button:hover {
 .home-video .video .thumbnail {
   width: 100%;
 }
-.home-video .video .video_frame {
-  width: 560px; height: 350px;
-}
 .hone-service {
   width: 100%;
   max-width: 1440px;
@@ -705,10 +689,6 @@ button:hover {
 }
 .hone-service .item {
   width: 100%;
-  max-width: 360px;
-  overflow: : hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
   border-radius: 3px;
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
   padding: 5px 0 5px 0;
@@ -724,25 +704,22 @@ button:hover {
   zoom: 1; /* Fix for IE7 */
   *display: inline; /* Fix for IE7 */
   width: 52px;
-  line-height: 48px;
-  text-align: center;
-  color: #eb5f36;
-  border: 2px solid #eb5f36;
-  border-radius: 50%;
-  font-size: 22px;
+  height: 52px;
+  background-image: url('../images/icon.png');
+  background-repeat: no-repeat;
 }
-/*.hone-service .item.ship .icon {
+.hone-service .item.ship .icon {
   background-position: 0 0;
-}*/
-/*.hone-service .item.pay .icon {
+}
+.hone-service .item.pay .icon {
   background-position: 0 -53px;
-}*/
-/*.hone-service .item.change .icon {
+}
+.hone-service .item.change .icon {
   background-position: 0 -107px;
-}*/
-/*.hone-service .item.hotline .icon {
+}
+.hone-service .item.hotline .icon {
   background-position: 0 -160px;
-}*/
+}
 .hone-service .item .text {
   vertical-align: middle;
   padding-left: 5px;
@@ -757,7 +734,6 @@ button:hover {
   text-transform: uppercase;
 }
 .hone-service .item .text p {
-  max-width: 210px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -768,7 +744,6 @@ button:hover {
 .home-products .card {
   margin-bottom: 2rem;
   border: none;
-  text-align: center;
 }
 .home-products .card .card-img-top {
   border: 1px solid #ebebeb;
@@ -777,12 +752,11 @@ button:hover {
       -ms-transition: all 2s ease-in-out;
        -o-transition: all 2s ease-in-out;
           transition: all 2s ease-in-out;
-  max-width: 220px;
 }
 .home-products .card:hover {
 }
 .home-products .card .card-title {
-  font-size:  1.5rem;
+  font-size:  2rem;
   font-family: "Helvetica Neue Bold", arial, sans-serif;
   color: #000;
   line-height: 1.2;
@@ -799,25 +773,23 @@ button:hover {
   color: #eb5f36;
   line-height: 1.5;
   margin-bottom: 0.5rem;
-  font-size: 1.4rem;
 }
 .home-products .card .italic {
   font-family: 'Helvetica Neue Light Italic', arial, sans-serif;
   letter-spacing: 1px;
   color: #000;
 }
-.home-products .card .rate .fa-star-half,
-.home-products .card .rate .mdi-star-half {
+.home-products .card .rate .fa-star-half {
   color: #eb5f36;
 }
 
 .home-products .card .price {
-  font-size: 2rem;
+  font-size: 3rem;
   font-family: "Helvetica Neue Bold", arial, sans-serif;
   margin-bottom: 1.5rem;
 }
 .home-products .card .price .old-price {
-  font-size: 1rem;
+  font-size: 1.6rem;
   font-family: "Helvetica Neue", arial, sans-serif;
   text-decoration: line-through;
   color: #444;
@@ -826,6 +798,7 @@ button:hover {
   padding: 10px 20px;
   border:  1px solid #eb5f36;
   text-decoration: underline;
+  font-size:  2rem;
   font-family: "Helvetica Neue Bold", arial, sans-serif;
   margin: 2rem;
   text-decoration: none;
@@ -843,7 +816,6 @@ button:hover {
 .footer {
   background: #f1f1f1;
   padding-top: 3rem;
-  margin-top: 3rem;
 }
 .footer .row > div {
   margin-bottom: 3rem;
@@ -853,14 +825,14 @@ button:hover {
   vertical-align: top;
   zoom: 1; /* Fix for IE7 */
   *display: inline; /* Fix for IE7 */
-  width: 17rem;
+  width:  200px;
 }
 .footer .info .logo img {
   display: block;
-  width: 100%;
+  width: 100%;  
 }
 .footer .info table td {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
 }
 .footer .info table td:last-child a {
     line-height: 1.5;
@@ -868,10 +840,10 @@ button:hover {
     font-family: "Helvetica Neue Light", arial, sans-serif;
 }
 .footer .title {
-  font-size: 1.6rem;
+  font-size: 3rem;
   color: #eb5f36;
   line-height: 1.2;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   font-family: "Helvetica Neue Bold", arial, sans-serif;
 }
 .footer .about ul li, .footer .support ul li {
@@ -969,7 +941,7 @@ button:hover {
   display: block;
   padding: 5px 5px;
   color: #000;
-  font-size: 1.4rem;
+  font-size: 2rem;
 }
 .left-menu > ul > li > a {
   font-family: "Helvetica Neue Bold", arial, sans-serif;
@@ -983,7 +955,7 @@ button:hover {
 }
 .left-menu  ul li a.hassub:before {
   content: '';
-  top: 0.5rem;
+  top: 0.9rem;
   right: 5px;
   position: absolute;
   width: 23px;
@@ -1004,7 +976,7 @@ button:hover {
 .left-menu.no-bold ul > li > a {
   font-family: "Helvetica Neue Light", arial, sans-serif;
   text-transform: none;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
 }
 /* End cate */
 .main-content .group-cate {
@@ -1066,6 +1038,7 @@ button:hover {
   background: #b7b7b7;
   color: #fff;
   text-transform: uppercase;
+  font-size: 2rem;
   font-family: "Helvetica Neue Bold", arial, sans-serif;
 }
 .product-info .nav li.active a {
@@ -1083,8 +1056,7 @@ button:hover {
 }
 .product-images .big-image {
   border: 1px solid #dddddd;
-  width: 100%;
-  width: 347px;
+  max-width: 100%;
 }
 .product-images .big-image .image img {
   max-width: 100%;
@@ -1109,15 +1081,15 @@ button:hover {
   line-height: 1.3;
 }
 .product-info .info .name {
-  font-size: 1.6rem;
+  font-size: 3rem;
   font-family: "Helvetica Neue Bold", arial, sans-serif;
   text-transform: uppercase;
-  margin-bottom: 1rem;
 }
 .product-info .info .rate {
   margin-bottom: 1rem;
 }
 .product-info .info .question {
+  font-size: 2rem;
   color: #000;
   text-decoration: underline;
   margin-left: 3rem;
@@ -1127,6 +1099,7 @@ button:hover {
   line-height: 1.3;
 }
 .product-info .info .label {
+  font-size: 2rem;
   font-family: "Helvetica Neue Bold", arial, sans-serif;
   line-height: 1.5;
   padding: 1.5rem 0;
@@ -1267,10 +1240,11 @@ button:hover {
   border-color: transparent !important;
 }
 .sidebar .section .title {
-  font-size: 1.6rem;
+  font-size: 2rem;
 }
 .project-detail .content {
   line-height: 1.2;
+  font-size: 2rem
   margin-bottom: 2rem;
 
 }
@@ -1282,7 +1256,7 @@ button:hover {
   max-width: 100%;
 }
 .project-detail .content .title {
-  font-size: 1.6rem;
+  font-size: 3rem;
   font-family: "Helvetica Neue Bold", arial, sans-serif;
   line-height: 1.5;
   margin-bottom: 1rem;
@@ -1298,7 +1272,7 @@ button:hover {
 }
 .sidebar .label {
   font-family: "Helvetica Neue Bold", arial, sans-serif;
-  font-size: 1.6rem;
+  font-size: 2.5rem;
   line-height: 1.5;
   margin-bottom: 1rem;
   margin-top: 1.5rem;
@@ -1306,7 +1280,7 @@ button:hover {
 .sidebar .learn ul li a {
  text-transform: none;
  font-family: "Helvetica Neue Light", arial, sans-serif;
- font-size: 1.4rem;
+ font-size: 1.6rem; 
  line-height: 1.2;
  padding-left: 1rem;
 }
@@ -1325,7 +1299,7 @@ button:hover {
 }
 .article-list .content .title a {
   line-height: 1.5;
-  font-size: 1.6rem;
+  font-size: 2.5rem;
   font-family: "Helvetica Neue Bold", arial, sans-serif;
   color: #000;
 }
@@ -1344,6 +1318,7 @@ button:hover {
   margin-bottom: 2rem;
 }
 .page-link {
+  font-size: 1.6rem;
   padding: 0.5rem 1rem;
   background-color: transparent;
   border: 1px solid transparent;
@@ -1352,7 +1327,7 @@ button:hover {
 .page-item.active .page-link {
   color: #eb5f36;
   background-color: transparent;
-  border-color: transparent;
+  border-color: transparent; 
 }
 .page-item.disabled .page-link {
   background-color: transparent;
@@ -1382,7 +1357,7 @@ button:hover {
   max-width: 100%;
 }
 .blog-detail .content .title {
-  font-size: 1.6rem;
+  font-size: 3rem;
   font-family: "Helvetica Neue Bold", arial, sans-serif;
   line-height: 1.5;
   margin-bottom: 1rem;
@@ -1414,7 +1389,7 @@ button:hover {
   color: #eb5f36;
 }
 .comment .label {
-  font-size: 1.6rem;
+  font-size: 2rem;
   line-height: 1.5;
   margin-bottom: 1rem;
 }
@@ -1423,7 +1398,6 @@ button:hover {
 }
 .comment .info .d-table-cell {
   vertical-align: top;
-  padding: 10px;
 }
 .comment .info .avatar {
   display: inline-block;
@@ -1437,7 +1411,7 @@ button:hover {
   display: block;
 }
 .comment .info .name {
-  font-size: 1.4rem;
+  font-size: 2.5rem;
   font-family: "Helvetica Neue Bold", arial, sans-serif;
   line-height: 1.5;
 }
@@ -1449,7 +1423,8 @@ button:hover {
   color: #eb5f36;
 }
 .comment .comment-detail {
-  font-size: 1.4rem;
+  font-size: 2rem;
+  color: #eb5f36;
   line-height: 1.2;
    margin: 1rem 0;
 }
@@ -1458,10 +1433,9 @@ button:hover {
   vertical-align: top;
   zoom: 1; /* Fix for IE7 */
   *display: inline; /* Fix for IE7 */
-  font-size: 1.4rem;
+  font-size: 2rem;
   color: #000;
   margin: 0 0 1rem 0;
-  color: #eb5f36;
 }
 .comment .comment-editor .form-control {
   border: 1px solid #787878;
@@ -1491,14 +1465,14 @@ button:hover {
   margin-bottom: 0.5rem;
 }
 .brand .item ul li .fa-li {
-  font-size: 0.5rem;
-  margin-top: 4px;
-  margin-left: -5px;
+  font-size: 1rem;
+  margin-top: 8px;
+  margin-left: -10px;
   color: #eb5f36;
 }
 .brand .item ul li a {
   display: block;
-  font-size: 1.4rem;
+  font-size: 2.5rem;
 }
 .js-menu-mobile {
   display: none;
@@ -1639,7 +1613,7 @@ button:hover {
 .nav-mobile ul li li li a {
   padding-left: 60px;
   font-family: "Helvetica Neue Light", arial, sans-serif;
-
+  
 }
 .nav-mobile ul {
     display: none
@@ -1761,7 +1735,7 @@ button:hover {
   margin-bottom: 1rem;
 }
 select.form-control:not([size]):not([multiple]) {
-    height: 3.5rem;
+    height: 4.5rem;
 }
 .login {
   width: 100%;
@@ -1788,89 +1762,22 @@ select.form-control:not([size]):not([multiple]) {
 .checkout .login .note {
   text-align: center;
 }
-#reviews .rate span.active .fa-star,
-#reviews .rate span.active .mdi-star {
+#reviews .rate span.active .fa-star {
   color: #eb5f36;
 }
-#reviews .rate span.hover .fa-star,
-#reviews .rate span.hover .mdi-star {
+#reviews .rate span.hover .fa-star {
   color: #eb5f36;
 }
-#reviews .rate .fa-star:hover,#reviews .rate .mdi-star:hover  {
+#reviews .rate .fa-star:hover {
   cursor: pointer;
 }
 .header .search form {
   display: flex;
 }
 
-/* The container */
-.container-payment {
-    display: block;
-    position: relative;
-    padding-left: 35px;
-    margin-bottom: 12px;
-    cursor: pointer;
-    font-size: 20px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+.row {
+  
 }
-
-/* Hide the browser's default radio button */
-.container-payment input {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
-}
-
-/* Create a custom radio button */
-.container-payment .checkmark {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 25px;
-    width: 25px;
-    background-color: #eee;
-    border-radius: 50%;
-}
-
-/* On mouse-over, add a grey background color */
-.container-payment:hover input ~ .checkmark {
-    background-color: #ccc;
-}
-
-/* When the radio button is checked, add a blue background */
-.container-payment input:checked ~ .checkmark {
-    background-color: #2196F3;
-}
-
-/* Create the indicator (the dot/circle - hidden when not checked) */
-.container-payment .checkmark:after {
-    content: "";
-    position: absolute;
-    display: none;
-}
-
-/* Show the indicator (dot/circle) when checked */
-.container-payment input:checked ~ .checkmark:after {
-    display: block;
-}
-
-/* Style the indicator (dot/circle) */
-.container-payment .checkmark:after {
- 	top: 9px;
-	left: 9px;
-	width: 8px;
-	height: 8px;
-	border-radius: 50%;
-	background: white;
-}
-
-.slick-dots li button, .slick-dots li {
-  width: 10px !important;
-  height: 10px !important;
-}
-.body-right .section .title {
-  font-size: 1.6rem;
+.row > div {
+  -webkit-flex: 1 1 auto;.
 }

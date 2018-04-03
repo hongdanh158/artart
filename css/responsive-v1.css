@@ -1,4 +1,4 @@
-/* @media only screen and (max-width: 1366px) {
+@media only screen and (max-width: 1366px) {
 	html { font-size: 55%}
 	.container {
 	  width: 100%;
@@ -12,7 +12,7 @@
 	    margin-top: 2rem;
 	}
 	.header .shopping-cart a {
-		padding: 0.9rem 1rem;
+		padding: 1.1rem 1rem;
 		line-height: 12px;
 	}
 	.header .shopping-cart .badge {
@@ -52,9 +52,9 @@
 	.product-images .img-slider {
 		width: 90px;
 	}
-} */
+}
 @media only screen and (max-width: 1280px) {
-
+	
 }
 @media only screen and (max-width: 1024px) {
 	.header .main-nav .nav {
@@ -105,7 +105,7 @@
 	.project .home-video .slick-dots {
 		width: 56%;
 	}
-}
+}	
 @media only screen and (max-width: 768px) {
 	.header .top-menu .promotion {
 		display: none;
@@ -114,14 +114,14 @@
 		margin-right: -3rem;
 	}
 	.header .shopping-cart {
-		width: 6rem;
+		width: 6.6rem;
 		position: absolute;
-		top: 0;
+		top: 41px;
 		right: 0;
 	}
 	.header .shopping-cart a {
-		padding: 1.2rem 1rem;
-		line-height: 0;
+	    padding: 1.4rem 1rem;
+	    line-height: 0;
 	}
 	.header .shopping-cart .badge {
 		font-size: 1.6rem;
@@ -141,14 +141,11 @@
 		box-shadow: 0 3px 3px 0px rgba(0, 0, 0, 0.1);
 		border-top: 1px solid #e8e8e8;
 	}
-	.header .search form {
-		width: 100%;
-	}
 	.header .search .form-control {
 		padding: 1rem;
 	}
 	.header .search button {
-		padding: 1.5rem 1.5rem;
+		padding: 0 1.5rem;
 	}
 	.body-right {
 		margin-top: 2rem;
@@ -230,9 +227,6 @@
 	.home-news .list-news .item .info .tit a {
 		font-size: 1.8rem;
 	}
-	.home-video .video .video_frame {
-	  width: 100%; height: 250px;
-	}
 }
 @media only screen and (max-width: 360px) {
 	.header .top-right-menu .nav-pills .nav-link {
@@ -240,9 +234,5 @@
 	}
 	.header .top-right-menu .dropdown-menu {
 	  left: -102%;
-	}
-	.header .main-nav .navbar-brand {
-	  width: 21rem;
-	  margin-top: 5px;
 	}
 }

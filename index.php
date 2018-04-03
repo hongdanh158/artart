@@ -134,12 +134,13 @@
           </div>
         </div>
       </div>
+
       <div class="section hone-service ">
           <div class="row">
             <div class="col-lg-3 col-md-6">
-              <div class="item ship">
+              <div class="item">
                 <div class="col" style="width: 1px;">
-                  <span class="icon"></span>
+                  <span class="icon"><i class="fas fa-truck"></i></span>
                 </div>
                 <div class="col text">
                   <strong>Miễn phí giao hàng</strong>
@@ -148,9 +149,9 @@
               </div>
             </div>
             <div class="col-lg-3 col-md-6">
-              <div class="item pay">
+              <div class="item">
                 <div class="col" style="width: 1px;">
-                  <span class="icon"></span>
+                  <span class="icon"><i class="fas fa-dollar-sign"></i></span>
                 </div>
                 <div class="col text">
                   <strong>THANH TOÁN TIỀN LỢI</strong>
@@ -159,9 +160,9 @@
               </div>
             </div>
             <div class="col-lg-3 col-md-6">
-              <div class="item change">
+              <div class="item">
                 <div class="col" style="width: 1px;">
-                  <span class="icon"></span>
+                  <span class="icon"><i class="fas fa-exchange-alt"></i></span>
                 </div>
                 <div class="col text">
                   <strong>5 NGÀY ĐỔI TRẢ</strong>
@@ -170,9 +171,9 @@
               </div>
             </div>
             <div class="col-lg-3 col-md-6">
-              <div class="item hotline">
+              <div class="item">
                 <div class="col" style="width: 1px;">
-                  <span class="icon"></span>
+                  <span class="icon"><i class="fas fa-phone-volume"></i></span>
                 </div>
                 <div class="col text">
                   <strong>Hotline: 091 415 9319</strong>
@@ -344,8 +345,8 @@
             adaptiveHeight: true,
             fade: true,
         });
-        $('.video-slider').on('afterChange', function(event, slick, currentSlide){
-            video.pause();
+        $('.slider').on('afterChange', function(event, slick, currentSlide){
+            // $(this).find('.slider-product').eq()
         });
     });
   </script>

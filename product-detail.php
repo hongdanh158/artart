@@ -59,16 +59,6 @@
 					    </div>
 					</div>
 				    <script>
-				    	$(window).on('load resize', function () {
-						    resizeProductBigImage();
-						});
-				    	function resizeProductBigImage() {
-				    		if ($('.product-images .big-image').length) {
-					    		if ($(window).width() > 1024) {
-					    			$('.product-images .big-image').width($(window).width()*500/1920);
-					    		}
-							}
-				    	}
 				    	$('.big-image').slick({
 				    		dots: true,
 							slidesToShow: 1,
@@ -79,7 +69,7 @@
 						});
 				    	$('.img-slider').slick({
 						  centerPadding: '60px',
-						  slidesToShow: 4,
+						  slidesToShow: 3,
 						  adaptiveHeight: true,
 						  vertical: true,
 						  dots: false,

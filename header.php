@@ -26,9 +26,6 @@
     <!-- End slick -->
     <script src="js/jquery.twbsPagination.min.js""></script>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="js/potato-menu/jquery.ui.potato.menu.css"/>
-    <script type="text/javascript" src="js/potato-menu/jquery.ui.potato.menu.js"></script>
-
   </head>
   <body>
 <div class="body" canvas="container">
@@ -72,504 +69,84 @@
             </a>
             <div class="shopping-cart float-right">
               <a href="cart.php">
-                <img src="images/icon-shopping-cart.png" alt="">
+                <img src="images/icon-shopping-cart.svg" alt="">
                 <span class="badge badge-light">4</span>
               </a>
             </div>
             <div class="input-group search">
-              <form action="">
               <input type="text" class="form-control"  placeholder="Tìm kiếm sản phẩm..." aria-label="Tìm kiếm sản phẩm...">
               <span class="input-group-btn">
                 <button type="button"><img src=" images/icon-search.png" alt=""></button>
               </span>
-              </form>
             </div>
             <ul class="nav nav-pills float-right">
               <li>
-                  <a href="#">Mua hàng</a>
+                  <a href="category.php">Mua hàng</a>
                   <ul>
-                    <li><a href="#">Bút</a>
-                        <ul>
-                          <li><a href="#">Nhóm sản phẩm 1</a>
-                            <ul>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                            </ul>
-                          </li>
-                          <li><a href="#">Nhóm sản phẩm 1</a>
-                            <ul>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                            </ul>
-                          </li>
-                          <li><a href="#">Nhóm sản phẩm 1</a>
-                          </li>
-                          <li><a href="#">Nhóm sản phẩm 1</a>
-                          </li>
-                          <li><a href="#">Nhóm sản phẩm 1</a>
-                            <ul>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                            </ul>
-                          </li>
-                          <li><a href="#">Nhóm sản phẩm 1</a>
-                            <ul>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                            </ul>
-                          </li>
-                          <li><a href="#">Nhóm sản phẩm 1</a>
-                            <ul>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                            </ul>
-                          </li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Phát thảo</a>
-                        <ul>
-                          <li><a href="#">Nhóm sản phẩm 1</a>
-                            <ul>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                            </ul>
-                          </li>
-                          <li><a href="#">Nhóm sản phẩm 1</a>
-                            <ul>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                            </ul>
-                          </li>
-                          <li><a href="#">Nhóm sản phẩm 1</a>
-                            <ul>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                            </ul>
-                          </li>
-                          <li><a href="#">Nhóm sản phẩm 1</a>
-                            <ul>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                            </ul>
-                          </li>
-                          <li><a href="#">Nhóm sản phẩm 1</a>
-                            <ul>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                            </ul>
-                          </li>
-                          <li><a href="#">Nhóm sản phẩm 1</a>
-                            <ul>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                            </ul>
-                          </li>
-                          <li><a href="#">Nhóm sản phẩm 1</a>
-                            <ul>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                            </ul>
-                          </li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Giấy số</a>
-                        <ul>
-                          <li><a href="#">Nhóm sản phẩm 1</a>
-                            <ul>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                            </ul>
-                          </li>
-                          <li><a href="#">Nhóm sản phẩm 1</a>
-                            <ul>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                            </ul>
-                          </li>
-                          <li><a href="#">Nhóm sản phẩm 1</a>
-                            <ul>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                            </ul>
-                          </li>
-                          <li><a href="#">Nhóm sản phẩm 1</a>
-                            <ul>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                            </ul>
-                          </li>
-                          <li><a href="#">Nhóm sản phẩm 1</a>
-                            <ul>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                            </ul>
-                          </li>
-                          <li><a href="#">Nhóm sản phẩm 1</a>
-                            <ul>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                            </ul>
-                          </li>
-                          <li><a href="#">Nhóm sản phẩm 1</a>
-                            <ul>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                            </ul>
-                          </li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Thủ công</a>
-                        <ul>
-                          <li><a href="#">Nhóm sản phẩm 1</a>
-                            <ul>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                            </ul>
-                          </li>
-                          <li><a href="#">Nhóm sản phẩm 1</a>
-                            <ul>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                            </ul>
-                          </li>
-                          <li><a href="#">Nhóm sản phẩm 1</a>
-                            <ul>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                            </ul>
-                          </li>
-                          <li><a href="#">Nhóm sản phẩm 1</a>
-                            <ul>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                            </ul>
-                          </li>
-                          <li><a href="#">Nhóm sản phẩm 1</a>
-                            <ul>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                            </ul>
-                          </li>
-                          <li><a href="#">Nhóm sản phẩm 1</a>
-                            <ul>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                            </ul>
-                          </li>
-                          <li><a href="#">Nhóm sản phẩm 1</a>
-                            <ul>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                            </ul>
-                          </li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Màu hoa cụ</a>
-                        <ul>
-                          <li><a href="#">Nhóm sản phẩm 1</a>
-                            <ul>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                            </ul>
-                          </li>
-                          <li><a href="#">Nhóm sản phẩm 1</a>
-                            <ul>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                            </ul>
-                          </li>
-                          <li><a href="#">Nhóm sản phẩm 1</a>
-                            <ul>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                            </ul>
-                          </li>
-                          <li><a href="#">Nhóm sản phẩm 1</a>
-                            <ul>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                            </ul>
-                          </li>
-                          <li><a href="#">Nhóm sản phẩm 1</a>
-                            <ul>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                            </ul>
-                          </li>
-                          <li><a href="#">Nhóm sản phẩm 1</a>
-                            <ul>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                            </ul>
-                          </li>
-                          <li><a href="#">Nhóm sản phẩm 1</a>
-                            <ul>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                            </ul>
-                          </li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Action</a>
-                        <ul>
-                          <li><a href="#">Nhóm sản phẩm 1</a>
-                            <ul>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                            </ul>
-                          </li>
-                          <li><a href="#">Nhóm sản phẩm 1</a>
-                            <ul>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                            </ul>
-                          </li>
-                          <li><a href="#">Nhóm sản phẩm 1</a>
-                            <ul>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                            </ul>
-                          </li>
-                          <li><a href="#">Nhóm sản phẩm 1</a>
-                            <ul>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                            </ul>
-                          </li>
-                          <li><a href="#">Nhóm sản phẩm 1</a>
-                            <ul>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                            </ul>
-                          </li>
-                          <li><a href="#">Nhóm sản phẩm 1</a>
-                            <ul>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                            </ul>
-                          </li>
-                          <li><a href="#">Nhóm sản phẩm 1</a>
-                            <ul>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Action</a></li>
-                            </ul>
-                          </li>
-                        </ul>
-                    </li>
+                    <li><a href="category.php">Bút</a>
+                          <ul>
+                                <li><a href="product-detail.php">Bút Viết Calligraphy</a>
+                                    <ul>
+                                          <li><a href="product-detail.php">Ngòi Bút Calligraphy</a></li>
+                                          <li><a href="product-detail.php">Cán Bút Viết</a></li>
+                                          <li><a href="product-detail.php">Bộ Ngòi Calligraphy</a></li>
+                                          <li><a href="product-detail.php">Bút Máy Ngòi Italic</a></li>
+                                          <li><a href="product-detail.php">Bút Máy Ngòi Flex</a></li>
+                                      </ul>
+                                  </li>
+                                <li><a href="category.php">Bút máy</a>
+                                    <ul>
+                                          <li><a href="product-detail.php">Bút Viết Hàng Ngày</a></li>
+                                          <li><a href="product-detail.php">Bút Máy Ngòi Italic</a></li>
+                                      </ul>
+                                  </li>
+                                <li><a href="product-detail.php">Bút Line</a>
+                                  </li>
+                                <li><a href="product-detail.php">But Brush</a>
+                                  </li>
+                                <li><a href="product-detail.php">Bút Marker</a>
+                                  </li>
+                                <li><a href="product-detail.php">Bút Vẽ Ký Hoạ</a>
+                                  </li>
+                                <li><a href="product-detail.php">Bút Màu Nhũ</a>
+                                  </li>
+                                <li><a href="product-detail.php">Bút Vẽ Manga/Cartoon</a>
+                                  </li>
+                              </ul>
+                        </li>
+                    <li><a href="product-detail.php">Phác thảo</a>
+                      </li>
+                    <li><a href="product-detail.php">Giấy sổ</a>
+                      </li>
+                    <li><a href="product-detail.php">Thủ công</a>
+                      </li>
+                    <li><a href="category.php">Màu họa cụ</a>
+                          <ul>
+                                <li><a href="product-detail.php">Cọ vẽ</a>
+                                  </li>
+                                <li><a href="product-detail.php">Màu vẽ</a>
+                                  </li>
+                                <li><a href="product-detail.php">Medium</a>
+                                  </li>
+                                <li><a href="product-detail.php">Fixative</a>
+                                  </li>
+                              </ul>
+                        </li>
                   </ul>
-              </li>
+                </li>
               <li>
-                <a href="#">Thương hiệu</a>
+              <li>
+                <a href="brand.php">Thương hiệu</a>
               </li>
                <li>
-                <a href="#">Ứng dụng</a>
+                <a href="project.php">Ứng dụng</a>
               </li>
                <li>
-                <a href="#">Kiến thức</a>
+                <a href="learn.php">Kiến thức</a>
               </li>
               </li>
                <li>
-                <a href="#">Blog</a>
+                <a href="blog.php">Blog</a>
               </li>
             </ul>
         </div>

@@ -5,11 +5,11 @@
           <h2 class="title left">Craft Painting How-To Articles</h2>
           <div class="row">
               <div class="card col-md-4 col-sm-6">
-                <a href="#">
+                <a href="project-detail.php">
                     <img class="card-img-top" src="images/ex/thumbnail-4.jpg" alt="">
                 </a>
                 <div class="card-body">
-                  <h4><a class="card-title" href="product-detail.php"><span class="orange-color">Aenean commodo ligula</span></a></h4>
+                  <h4><a class="card-title" href="project-detail.php"><span class="orange-color">Aenean commodo ligula</span></a></h4>
                   <div class="rate">
                     <span class="italic"> Độ khó </span> <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
@@ -21,11 +21,11 @@
                 </div>
               </div>
               <div class="card col-md-4 col-sm-6">
-                <a href="#">
+                <a href="project-detail.php">
                     <img class="card-img-top" src="images/ex/thumbnail-4.jpg" alt="">
                 </a>
                 <div class="card-body">
-                  <h4><a class="card-title" href="product-detail.php"><span class="orange-color">Aenean commodo ligula</span></a></h4>
+                  <h4><a class="card-title" href="project-detail.php"><span class="orange-color">Aenean commodo ligula</span></a></h4>
                   <div class="rate">
                     <span class="italic"> Độ khó </span> <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
@@ -37,11 +37,11 @@
                 </div>
               </div>
               <div class="card col-md-4 col-sm-6">
-                <a href="#">
+                <a href="project-detail.php">
                     <img class="card-img-top" src="images/ex/thumbnail-4.jpg" alt="">
                 </a>
                 <div class="card-body">
-                  <h4><a class="card-title" href="product-detail.php"><span class="orange-color">Aenean commodo ligula</span></a></h4>
+                  <h4><a class="card-title" href="project-detail.php"><span class="orange-color">Aenean commodo ligula</span></a></h4>
                   <div class="rate">
                     <span class="italic"> Độ khó </span> <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
@@ -53,11 +53,11 @@
                 </div>
               </div>
               <div class="card col-md-4 col-sm-6">
-                <a href="#">
+                <a href="project-detail.php">
                     <img class="card-img-top" src="images/ex/thumbnail-4.jpg" alt="">
                 </a>
                 <div class="card-body">
-                  <h4><a class="card-title" href="product-detail.php"><span class="orange-color">Aenean commodo ligula</span></a></h4>
+                  <h4><a class="card-title" href="project-detail.php"><span class="orange-color">Aenean commodo ligula</span></a></h4>
                   <div class="rate">
                     <span class="italic"> Độ khó </span> <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
@@ -69,11 +69,11 @@
                 </div>
               </div>
               <div class="card col-md-4 col-sm-6">
-                <a href="#">
+                <a href="project-detail.php">
                     <img class="card-img-top" src="images/ex/thumbnail-4.jpg" alt="">
                 </a>
                 <div class="card-body">
-                  <h4><a class="card-title" href="product-detail.php"><span class="orange-color">Aenean commodo ligula</span></a></h4>
+                  <h4><a class="card-title" href="project-detail.php"><span class="orange-color">Aenean commodo ligula</span></a></h4>
                   <div class="rate">
                     <span class="italic"> Độ khó </span> <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
@@ -85,11 +85,11 @@
                 </div>
               </div>
               <div class="card col-md-4 col-sm-6">
-                <a href="#">
+                <a href="project-detail.php">
                     <img class="card-img-top" src="images/ex/thumbnail-4.jpg" alt="">
                 </a>
                 <div class="card-body">
-                  <h4><a class="card-title" href="product-detail.php"><span class="orange-color">Aenean commodo ligula</span></a></h4>
+                  <h4><a class="card-title" href="project-detail.php"><span class="orange-color">Aenean commodo ligula</span></a></h4>
                   <div class="rate">
                     <span class="italic"> Độ khó </span> <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
@@ -104,11 +104,11 @@
           <h2 class="title left">Craft Painting How-To Articles</h2>
           <div class="row">
               <div class="card col-md-4 col-sm-6">
-                <a href="#" class="video-thumbnail">
+                <a href="project-detail.php" class="video-thumbnail">
                     <img class="card-img-top" src="images/ex/thumbnail-13.jpg" alt="">
                 </a>
                 <div class="card-body">
-                  <h4><a class="card-title" href="product-detail.php"><span class="orange-color">Aenean commodo ligula</span></a></h4>
+                  <h4><a class="card-title" href="project-detail.php"><span class="orange-color">Aenean commodo ligula</span></a></h4>
                   <div class="rate">
                     <span class="italic"> Độ khó </span> <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
@@ -120,11 +120,11 @@
                 </div>
               </div>
               <div class="card col-md-4 col-sm-6">
-                <a href="#" class="video-thumbnail">
+                <a href="project-detail.php" class="video-thumbnail">
                     <img class="card-img-top" src="images/ex/thumbnail-13.jpg" alt="">
                 </a>
                 <div class="card-body">
-                  <h4><a class="card-title" href="product-detail.php"><span class="orange-color">Aenean commodo ligula</span></a></h4>
+                  <h4><a class="card-title" href="project-detail.php"><span class="orange-color">Aenean commodo ligula</span></a></h4>
                   <div class="rate">
                     <span class="italic"> Độ khó </span> <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
@@ -136,11 +136,11 @@
                 </div>
               </div>
               <div class="card col-md-4 col-sm-6">
-                <a href="#" class="video-thumbnail">
+                <a href="project-detail.php" class="video-thumbnail">
                     <img class="card-img-top" src="images/ex/thumbnail-13.jpg" alt="">
                 </a>
                 <div class="card-body">
-                  <h4><a class="card-title" href="product-detail.php"><span class="orange-color">Aenean commodo ligula</span></a></h4>
+                  <h4><a class="card-title" href="project-detail.php"><span class="orange-color">Aenean commodo ligula</span></a></h4>
                   <div class="rate">
                     <span class="italic"> Độ khó </span> <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
